@@ -1,0 +1,116 @@
+{
+  "questions": [
+    {
+      "question_id": "WORTH_THE_PRICE",
+      "label": "Is this worth the price?",
+      "requires_product": true,
+      "min_products": 1,
+      "max_products": 1
+    },
+    {
+      "question_id": "WHAT_BUYERS_DISLIKE",
+      "label": "What do buyers dislike?",
+      "requires_product": true,
+      "min_products": 1,
+      "max_products": 1
+    },
+    {
+      "question_id": "IS_FIT_RELIABLE",
+      "label": "Is the fit reliable?",
+      "requires_product": true,
+      "min_products": 1,
+      "max_products": 1
+    },
+    {
+      "question_id": "FABRIC_QUALITY",
+      "label": "How is the fabric quality?",
+      "requires_product": true,
+      "min_products": 1,
+      "max_products": 1
+    },
+    {
+      "question_id": "BETTER_OPTION_IN_WISHLIST",
+      "label": "Is there a better option in my Wishlist?",
+      "requires_product": true,
+      "min_products": 1,
+      "max_products": 1
+    },
+    {
+      "question_id": "SHOULD_I_WAIT",
+      "label": "Should I wait for a price drop?",
+      "requires_product": true,
+      "min_products": 1,
+      "max_products": 1
+    },
+    {
+      "question_id": "RUNS_TRUE_TO_SIZE",
+      "label": "Does it run true to size?",
+      "requires_product": true,
+      "min_products": 1,
+      "max_products": 1
+    },
+    {
+      "question_id": "GOOD_FOR_DAILY_WEAR",
+      "label": "Is it good for daily wear?",
+      "requires_product": true,
+      "min_products": 1,
+      "max_products": 1
+    },
+    {
+      "question_id": "DURABLE_ENOUGH",
+      "label": "Will it hold up over time?",
+      "requires_product": true,
+      "min_products": 1,
+      "max_products": 1
+    },
+    {
+      "question_id": "COMFORT_LEVEL",
+      "label": "How comfortable is it?",
+      "requires_product": true,
+      "min_products": 1,
+      "max_products": 1
+    },
+    {
+      "question_id": "STYLE_VERSATILE",
+      "label": "Is the style versatile?",
+      "requires_product": true,
+      "min_products": 1,
+      "max_products": 1
+    },
+    {
+      "question_id": "WHICH_ONE_SHOULD_I_BUY",
+      "label": "Which one should I buy?",
+      "requires_product": false,
+      "min_products": 2,
+      "max_products": 3
+    },
+    {
+      "question_id": "WHY_BETTER_THAN_B",
+      "label": "Why is this better than the other?",
+      "requires_product": false,
+      "min_products": 2,
+      "max_products": 2
+    },
+    {
+      "question_id": "WHICH_BEST_VALUE",
+      "label": "Which gives the best value?",
+      "requires_product": false,
+      "min_products": 2,
+      "max_products": 3
+    },
+    {
+      "question_id": "WHICH_MOST_REVIEWED",
+      "label": "Which has the strongest reviews?",
+      "requires_product": false,
+      "min_products": 2,
+      "max_products": 3
+    },
+    {
+      "question_id": "PRICE_VS_QUALITY",
+      "label": "Which balances price and quality best?",
+      "requires_product": false,
+      "min_products": 2,
+      "max_products": 3
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+[
+  {
+    "user_id": "U001",
+    "display_name": "Demo Shopper",
+    "size": "M",
+    "price_min": 500,
+    "price_max": 2000,
+    "occasions": ["Casual", "Office"],
+    "priorities": ["Quality", "Comfort"]
+  }
+]

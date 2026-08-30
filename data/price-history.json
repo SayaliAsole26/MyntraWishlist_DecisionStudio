@@ -1,0 +1,3127 @@
+[
+  {
+    "product_id": "P001",
+    "date": "2026-07-26",
+    "price": 1741
+  },
+  {
+    "product_id": "P001",
+    "date": "2026-07-27",
+    "price": 1809
+  },
+  {
+    "product_id": "P001",
+    "date": "2026-07-28",
+    "price": 1725
+  },
+  {
+    "product_id": "P001",
+    "date": "2026-07-29",
+    "price": 1736
+  },
+  {
+    "product_id": "P001",
+    "date": "2026-07-30",
+    "price": 1860
+  },
+  {
+    "product_id": "P001",
+    "date": "2026-07-31",
+    "price": 1752
+  },
+  {
+    "product_id": "P001",
+    "date": "2026-08-01",
+    "price": 1826
+  },
+  {
+    "product_id": "P001",
+    "date": "2026-08-02",
+    "price": 1887
+  },
+  {
+    "product_id": "P001",
+    "date": "2026-08-03",
+    "price": 1757
+  },
+  {
+    "product_id": "P001",
+    "date": "2026-08-04",
+    "price": 1877
+  },
+  {
+    "product_id": "P001",
+    "date": "2026-08-05",
+    "price": 1807
+  },
+  {
+    "product_id": "P001",
+    "date": "2026-08-06",
+    "price": 1767
+  },
+  {
+    "product_id": "P001",
+    "date": "2026-08-07",
+    "price": 1785
+  },
+  {
+    "product_id": "P001",
+    "date": "2026-08-08",
+    "price": 1879
+  },
+  {
+    "product_id": "P001",
+    "date": "2026-08-09",
+    "price": 1880
+  },
+  {
+    "product_id": "P001",
+    "date": "2026-08-10",
+    "price": 1795
+  },
+  {
+    "product_id": "P001",
+    "date": "2026-08-11",
+    "price": 1844
+  },
+  {
+    "product_id": "P001",
+    "date": "2026-08-12",
+    "price": 1811
+  },
+  {
+    "product_id": "P001",
+    "date": "2026-08-13",
+    "price": 1934
+  },
+  {
+    "product_id": "P001",
+    "date": "2026-08-14",
+    "price": 1906
+  },
+  {
+    "product_id": "P001",
+    "date": "2026-08-15",
+    "price": 1818
+  },
+  {
+    "product_id": "P001",
+    "date": "2026-08-16",
+    "price": 1952
+  },
+  {
+    "product_id": "P001",
+    "date": "2026-08-17",
+    "price": 1844
+  },
+  {
+    "product_id": "P001",
+    "date": "2026-08-18",
+    "price": 1875
+  },
+  {
+    "product_id": "P001",
+    "date": "2026-08-19",
+    "price": 1983
+  },
+  {
+    "product_id": "P001",
+    "date": "2026-08-20",
+    "price": 1977
+  },
+  {
+    "product_id": "P001",
+    "date": "2026-08-21",
+    "price": 1848
+  },
+  {
+    "product_id": "P001",
+    "date": "2026-08-22",
+    "price": 1985
+  },
+  {
+    "product_id": "P001",
+    "date": "2026-08-23",
+    "price": 1992
+  },
+  {
+    "product_id": "P001",
+    "date": "2026-08-24",
+    "price": 1949
+  },
+  {
+    "product_id": "P001",
+    "date": "2026-08-25",
+    "price": 1865
+  },
+  {
+    "product_id": "P001",
+    "date": "2026-08-26",
+    "price": 1914
+  },
+  {
+    "product_id": "P001",
+    "date": "2026-08-27",
+    "price": 1874
+  },
+  {
+    "product_id": "P001",
+    "date": "2026-08-28",
+    "price": 1999
+  },
+  {
+    "product_id": "P001",
+    "date": "2026-08-29",
+    "price": 999
+  },
+  {
+    "product_id": "P002",
+    "date": "2026-07-16",
+    "price": 2174
+  },
+  {
+    "product_id": "P002",
+    "date": "2026-07-17",
+    "price": 2281
+  },
+  {
+    "product_id": "P002",
+    "date": "2026-07-18",
+    "price": 2178
+  },
+  {
+    "product_id": "P002",
+    "date": "2026-07-19",
+    "price": 2299
+  },
+  {
+    "product_id": "P002",
+    "date": "2026-07-20",
+    "price": 2236
+  },
+  {
+    "product_id": "P002",
+    "date": "2026-07-21",
+    "price": 2306
+  },
+  {
+    "product_id": "P002",
+    "date": "2026-07-22",
+    "price": 2214
+  },
+  {
+    "product_id": "P002",
+    "date": "2026-07-23",
+    "price": 2199
+  },
+  {
+    "product_id": "P002",
+    "date": "2026-07-24",
+    "price": 2326
+  },
+  {
+    "product_id": "P002",
+    "date": "2026-07-25",
+    "price": 2329
+  },
+  {
+    "product_id": "P002",
+    "date": "2026-07-26",
+    "price": 2236
+  },
+  {
+    "product_id": "P002",
+    "date": "2026-07-27",
+    "price": 2288
+  },
+  {
+    "product_id": "P002",
+    "date": "2026-07-28",
+    "price": 2222
+  },
+  {
+    "product_id": "P002",
+    "date": "2026-07-29",
+    "price": 2343
+  },
+  {
+    "product_id": "P002",
+    "date": "2026-07-30",
+    "price": 2224
+  },
+  {
+    "product_id": "P002",
+    "date": "2026-07-31",
+    "price": 2357
+  },
+  {
+    "product_id": "P002",
+    "date": "2026-08-01",
+    "price": 2233
+  },
+  {
+    "product_id": "P002",
+    "date": "2026-08-02",
+    "price": 2381
+  },
+  {
+    "product_id": "P002",
+    "date": "2026-08-03",
+    "price": 2280
+  },
+  {
+    "product_id": "P002",
+    "date": "2026-08-04",
+    "price": 2360
+  },
+  {
+    "product_id": "P002",
+    "date": "2026-08-05",
+    "price": 2374
+  },
+  {
+    "product_id": "P002",
+    "date": "2026-08-06",
+    "price": 2352
+  },
+  {
+    "product_id": "P002",
+    "date": "2026-08-07",
+    "price": 2328
+  },
+  {
+    "product_id": "P002",
+    "date": "2026-08-08",
+    "price": 2372
+  },
+  {
+    "product_id": "P002",
+    "date": "2026-08-09",
+    "price": 2407
+  },
+  {
+    "product_id": "P002",
+    "date": "2026-08-10",
+    "price": 2379
+  },
+  {
+    "product_id": "P002",
+    "date": "2026-08-11",
+    "price": 2360
+  },
+  {
+    "product_id": "P002",
+    "date": "2026-08-12",
+    "price": 2349
+  },
+  {
+    "product_id": "P002",
+    "date": "2026-08-13",
+    "price": 2341
+  },
+  {
+    "product_id": "P002",
+    "date": "2026-08-14",
+    "price": 2329
+  },
+  {
+    "product_id": "P002",
+    "date": "2026-08-15",
+    "price": 2350
+  },
+  {
+    "product_id": "P002",
+    "date": "2026-08-16",
+    "price": 2313
+  },
+  {
+    "product_id": "P002",
+    "date": "2026-08-17",
+    "price": 2445
+  },
+  {
+    "product_id": "P002",
+    "date": "2026-08-18",
+    "price": 2379
+  },
+  {
+    "product_id": "P002",
+    "date": "2026-08-19",
+    "price": 2442
+  },
+  {
+    "product_id": "P002",
+    "date": "2026-08-20",
+    "price": 2439
+  },
+  {
+    "product_id": "P002",
+    "date": "2026-08-21",
+    "price": 2405
+  },
+  {
+    "product_id": "P002",
+    "date": "2026-08-22",
+    "price": 2437
+  },
+  {
+    "product_id": "P002",
+    "date": "2026-08-23",
+    "price": 2401
+  },
+  {
+    "product_id": "P002",
+    "date": "2026-08-24",
+    "price": 2488
+  },
+  {
+    "product_id": "P002",
+    "date": "2026-08-25",
+    "price": 2356
+  },
+  {
+    "product_id": "P002",
+    "date": "2026-08-26",
+    "price": 2373
+  },
+  {
+    "product_id": "P002",
+    "date": "2026-08-27",
+    "price": 2479
+  },
+  {
+    "product_id": "P002",
+    "date": "2026-08-28",
+    "price": 2460
+  },
+  {
+    "product_id": "P002",
+    "date": "2026-08-29",
+    "price": 1299
+  },
+  {
+    "product_id": "P003",
+    "date": "2026-07-16",
+    "price": 1664
+  },
+  {
+    "product_id": "P003",
+    "date": "2026-07-17",
+    "price": 1756
+  },
+  {
+    "product_id": "P003",
+    "date": "2026-07-18",
+    "price": 1743
+  },
+  {
+    "product_id": "P003",
+    "date": "2026-07-19",
+    "price": 1651
+  },
+  {
+    "product_id": "P003",
+    "date": "2026-07-20",
+    "price": 1665
+  },
+  {
+    "product_id": "P003",
+    "date": "2026-07-21",
+    "price": 1793
+  },
+  {
+    "product_id": "P003",
+    "date": "2026-07-22",
+    "price": 1799
+  },
+  {
+    "product_id": "P003",
+    "date": "2026-07-23",
+    "price": 1741
+  },
+  {
+    "product_id": "P003",
+    "date": "2026-07-24",
+    "price": 1753
+  },
+  {
+    "product_id": "P003",
+    "date": "2026-07-25",
+    "price": 1760
+  },
+  {
+    "product_id": "P003",
+    "date": "2026-07-26",
+    "price": 1799
+  },
+  {
+    "product_id": "P003",
+    "date": "2026-07-27",
+    "price": 1799
+  },
+  {
+    "product_id": "P003",
+    "date": "2026-07-28",
+    "price": 1799
+  },
+  {
+    "product_id": "P003",
+    "date": "2026-07-29",
+    "price": 1799
+  },
+  {
+    "product_id": "P003",
+    "date": "2026-07-30",
+    "price": 1713
+  },
+  {
+    "product_id": "P003",
+    "date": "2026-07-31",
+    "price": 1724
+  },
+  {
+    "product_id": "P003",
+    "date": "2026-08-01",
+    "price": 1775
+  },
+  {
+    "product_id": "P003",
+    "date": "2026-08-02",
+    "price": 1799
+  },
+  {
+    "product_id": "P003",
+    "date": "2026-08-03",
+    "price": 1732
+  },
+  {
+    "product_id": "P003",
+    "date": "2026-08-04",
+    "price": 1736
+  },
+  {
+    "product_id": "P003",
+    "date": "2026-08-05",
+    "price": 1799
+  },
+  {
+    "product_id": "P003",
+    "date": "2026-08-06",
+    "price": 1799
+  },
+  {
+    "product_id": "P003",
+    "date": "2026-08-07",
+    "price": 1799
+  },
+  {
+    "product_id": "P003",
+    "date": "2026-08-08",
+    "price": 1799
+  },
+  {
+    "product_id": "P003",
+    "date": "2026-08-09",
+    "price": 1799
+  },
+  {
+    "product_id": "P003",
+    "date": "2026-08-10",
+    "price": 1799
+  },
+  {
+    "product_id": "P003",
+    "date": "2026-08-11",
+    "price": 1761
+  },
+  {
+    "product_id": "P003",
+    "date": "2026-08-12",
+    "price": 1799
+  },
+  {
+    "product_id": "P003",
+    "date": "2026-08-13",
+    "price": 1799
+  },
+  {
+    "product_id": "P003",
+    "date": "2026-08-14",
+    "price": 1799
+  },
+  {
+    "product_id": "P003",
+    "date": "2026-08-15",
+    "price": 1799
+  },
+  {
+    "product_id": "P003",
+    "date": "2026-08-16",
+    "price": 1799
+  },
+  {
+    "product_id": "P003",
+    "date": "2026-08-17",
+    "price": 1799
+  },
+  {
+    "product_id": "P003",
+    "date": "2026-08-18",
+    "price": 1799
+  },
+  {
+    "product_id": "P003",
+    "date": "2026-08-19",
+    "price": 1799
+  },
+  {
+    "product_id": "P003",
+    "date": "2026-08-20",
+    "price": 1799
+  },
+  {
+    "product_id": "P003",
+    "date": "2026-08-21",
+    "price": 1799
+  },
+  {
+    "product_id": "P003",
+    "date": "2026-08-22",
+    "price": 1799
+  },
+  {
+    "product_id": "P003",
+    "date": "2026-08-23",
+    "price": 1799
+  },
+  {
+    "product_id": "P003",
+    "date": "2026-08-24",
+    "price": 1799
+  },
+  {
+    "product_id": "P003",
+    "date": "2026-08-25",
+    "price": 1799
+  },
+  {
+    "product_id": "P003",
+    "date": "2026-08-26",
+    "price": 1799
+  },
+  {
+    "product_id": "P003",
+    "date": "2026-08-27",
+    "price": 1799
+  },
+  {
+    "product_id": "P003",
+    "date": "2026-08-28",
+    "price": 1799
+  },
+  {
+    "product_id": "P003",
+    "date": "2026-08-29",
+    "price": 899
+  },
+  {
+    "product_id": "P004",
+    "date": "2026-07-26",
+    "price": 5482
+  },
+  {
+    "product_id": "P004",
+    "date": "2026-07-27",
+    "price": 5562
+  },
+  {
+    "product_id": "P004",
+    "date": "2026-07-28",
+    "price": 5597
+  },
+  {
+    "product_id": "P004",
+    "date": "2026-07-29",
+    "price": 5533
+  },
+  {
+    "product_id": "P004",
+    "date": "2026-07-30",
+    "price": 5573
+  },
+  {
+    "product_id": "P004",
+    "date": "2026-07-31",
+    "price": 5563
+  },
+  {
+    "product_id": "P004",
+    "date": "2026-08-01",
+    "price": 5574
+  },
+  {
+    "product_id": "P004",
+    "date": "2026-08-02",
+    "price": 5541
+  },
+  {
+    "product_id": "P004",
+    "date": "2026-08-03",
+    "price": 5525
+  },
+  {
+    "product_id": "P004",
+    "date": "2026-08-04",
+    "price": 5513
+  },
+  {
+    "product_id": "P004",
+    "date": "2026-08-05",
+    "price": 5542
+  },
+  {
+    "product_id": "P004",
+    "date": "2026-08-06",
+    "price": 5540
+  },
+  {
+    "product_id": "P004",
+    "date": "2026-08-07",
+    "price": 5566
+  },
+  {
+    "product_id": "P004",
+    "date": "2026-08-08",
+    "price": 5571
+  },
+  {
+    "product_id": "P004",
+    "date": "2026-08-09",
+    "price": 5520
+  },
+  {
+    "product_id": "P004",
+    "date": "2026-08-10",
+    "price": 5646
+  },
+  {
+    "product_id": "P004",
+    "date": "2026-08-11",
+    "price": 5677
+  },
+  {
+    "product_id": "P004",
+    "date": "2026-08-12",
+    "price": 5578
+  },
+  {
+    "product_id": "P004",
+    "date": "2026-08-13",
+    "price": 5604
+  },
+  {
+    "product_id": "P004",
+    "date": "2026-08-14",
+    "price": 5614
+  },
+  {
+    "product_id": "P004",
+    "date": "2026-08-15",
+    "price": 5548
+  },
+  {
+    "product_id": "P004",
+    "date": "2026-08-16",
+    "price": 5589
+  },
+  {
+    "product_id": "P004",
+    "date": "2026-08-17",
+    "price": 5664
+  },
+  {
+    "product_id": "P004",
+    "date": "2026-08-18",
+    "price": 5698
+  },
+  {
+    "product_id": "P004",
+    "date": "2026-08-19",
+    "price": 5661
+  },
+  {
+    "product_id": "P004",
+    "date": "2026-08-20",
+    "price": 5728
+  },
+  {
+    "product_id": "P004",
+    "date": "2026-08-21",
+    "price": 5721
+  },
+  {
+    "product_id": "P004",
+    "date": "2026-08-22",
+    "price": 5663
+  },
+  {
+    "product_id": "P004",
+    "date": "2026-08-23",
+    "price": 5619
+  },
+  {
+    "product_id": "P004",
+    "date": "2026-08-24",
+    "price": 5723
+  },
+  {
+    "product_id": "P004",
+    "date": "2026-08-25",
+    "price": 5755
+  },
+  {
+    "product_id": "P004",
+    "date": "2026-08-26",
+    "price": 5615
+  },
+  {
+    "product_id": "P004",
+    "date": "2026-08-27",
+    "price": 5723
+  },
+  {
+    "product_id": "P004",
+    "date": "2026-08-28",
+    "price": 5755
+  },
+  {
+    "product_id": "P004",
+    "date": "2026-08-29",
+    "price": 4999
+  },
+  {
+    "product_id": "P005",
+    "date": "2026-07-26",
+    "price": 4527
+  },
+  {
+    "product_id": "P005",
+    "date": "2026-07-27",
+    "price": 4458
+  },
+  {
+    "product_id": "P005",
+    "date": "2026-07-28",
+    "price": 4560
+  },
+  {
+    "product_id": "P005",
+    "date": "2026-07-29",
+    "price": 4544
+  },
+  {
+    "product_id": "P005",
+    "date": "2026-07-30",
+    "price": 4462
+  },
+  {
+    "product_id": "P005",
+    "date": "2026-07-31",
+    "price": 4500
+  },
+  {
+    "product_id": "P005",
+    "date": "2026-08-01",
+    "price": 4474
+  },
+  {
+    "product_id": "P005",
+    "date": "2026-08-02",
+    "price": 4515
+  },
+  {
+    "product_id": "P005",
+    "date": "2026-08-03",
+    "price": 4579
+  },
+  {
+    "product_id": "P005",
+    "date": "2026-08-04",
+    "price": 4513
+  },
+  {
+    "product_id": "P005",
+    "date": "2026-08-05",
+    "price": 4505
+  },
+  {
+    "product_id": "P005",
+    "date": "2026-08-06",
+    "price": 4569
+  },
+  {
+    "product_id": "P005",
+    "date": "2026-08-07",
+    "price": 4640
+  },
+  {
+    "product_id": "P005",
+    "date": "2026-08-08",
+    "price": 4505
+  },
+  {
+    "product_id": "P005",
+    "date": "2026-08-09",
+    "price": 4523
+  },
+  {
+    "product_id": "P005",
+    "date": "2026-08-10",
+    "price": 4502
+  },
+  {
+    "product_id": "P005",
+    "date": "2026-08-11",
+    "price": 4652
+  },
+  {
+    "product_id": "P005",
+    "date": "2026-08-12",
+    "price": 4550
+  },
+  {
+    "product_id": "P005",
+    "date": "2026-08-13",
+    "price": 4654
+  },
+  {
+    "product_id": "P005",
+    "date": "2026-08-14",
+    "price": 4547
+  },
+  {
+    "product_id": "P005",
+    "date": "2026-08-15",
+    "price": 4620
+  },
+  {
+    "product_id": "P005",
+    "date": "2026-08-16",
+    "price": 4689
+  },
+  {
+    "product_id": "P005",
+    "date": "2026-08-17",
+    "price": 4543
+  },
+  {
+    "product_id": "P005",
+    "date": "2026-08-18",
+    "price": 4560
+  },
+  {
+    "product_id": "P005",
+    "date": "2026-08-19",
+    "price": 4600
+  },
+  {
+    "product_id": "P005",
+    "date": "2026-08-20",
+    "price": 4709
+  },
+  {
+    "product_id": "P005",
+    "date": "2026-08-21",
+    "price": 4653
+  },
+  {
+    "product_id": "P005",
+    "date": "2026-08-22",
+    "price": 4600
+  },
+  {
+    "product_id": "P005",
+    "date": "2026-08-23",
+    "price": 4631
+  },
+  {
+    "product_id": "P005",
+    "date": "2026-08-24",
+    "price": 4660
+  },
+  {
+    "product_id": "P005",
+    "date": "2026-08-25",
+    "price": 4731
+  },
+  {
+    "product_id": "P005",
+    "date": "2026-08-26",
+    "price": 4675
+  },
+  {
+    "product_id": "P005",
+    "date": "2026-08-27",
+    "price": 4708
+  },
+  {
+    "product_id": "P005",
+    "date": "2026-08-28",
+    "price": 4623
+  },
+  {
+    "product_id": "P005",
+    "date": "2026-08-29",
+    "price": 3999
+  },
+  {
+    "product_id": "P012",
+    "date": "2026-07-26",
+    "price": 4359
+  },
+  {
+    "product_id": "P012",
+    "date": "2026-07-27",
+    "price": 4367
+  },
+  {
+    "product_id": "P012",
+    "date": "2026-07-28",
+    "price": 4373
+  },
+  {
+    "product_id": "P012",
+    "date": "2026-07-29",
+    "price": 4334
+  },
+  {
+    "product_id": "P012",
+    "date": "2026-07-30",
+    "price": 4281
+  },
+  {
+    "product_id": "P012",
+    "date": "2026-07-31",
+    "price": 4301
+  },
+  {
+    "product_id": "P012",
+    "date": "2026-08-01",
+    "price": 4296
+  },
+  {
+    "product_id": "P012",
+    "date": "2026-08-02",
+    "price": 4362
+  },
+  {
+    "product_id": "P012",
+    "date": "2026-08-03",
+    "price": 4347
+  },
+  {
+    "product_id": "P012",
+    "date": "2026-08-04",
+    "price": 4407
+  },
+  {
+    "product_id": "P012",
+    "date": "2026-08-05",
+    "price": 4331
+  },
+  {
+    "product_id": "P012",
+    "date": "2026-08-06",
+    "price": 4427
+  },
+  {
+    "product_id": "P012",
+    "date": "2026-08-07",
+    "price": 4305
+  },
+  {
+    "product_id": "P012",
+    "date": "2026-08-08",
+    "price": 4357
+  },
+  {
+    "product_id": "P012",
+    "date": "2026-08-09",
+    "price": 4445
+  },
+  {
+    "product_id": "P012",
+    "date": "2026-08-10",
+    "price": 4407
+  },
+  {
+    "product_id": "P012",
+    "date": "2026-08-11",
+    "price": 4357
+  },
+  {
+    "product_id": "P012",
+    "date": "2026-08-12",
+    "price": 4464
+  },
+  {
+    "product_id": "P012",
+    "date": "2026-08-13",
+    "price": 4336
+  },
+  {
+    "product_id": "P012",
+    "date": "2026-08-14",
+    "price": 4470
+  },
+  {
+    "product_id": "P012",
+    "date": "2026-08-15",
+    "price": 4416
+  },
+  {
+    "product_id": "P012",
+    "date": "2026-08-16",
+    "price": 4368
+  },
+  {
+    "product_id": "P012",
+    "date": "2026-08-17",
+    "price": 4416
+  },
+  {
+    "product_id": "P012",
+    "date": "2026-08-18",
+    "price": 4487
+  },
+  {
+    "product_id": "P012",
+    "date": "2026-08-19",
+    "price": 4453
+  },
+  {
+    "product_id": "P012",
+    "date": "2026-08-20",
+    "price": 4407
+  },
+  {
+    "product_id": "P012",
+    "date": "2026-08-21",
+    "price": 4461
+  },
+  {
+    "product_id": "P012",
+    "date": "2026-08-22",
+    "price": 4432
+  },
+  {
+    "product_id": "P012",
+    "date": "2026-08-23",
+    "price": 4499
+  },
+  {
+    "product_id": "P012",
+    "date": "2026-08-24",
+    "price": 4499
+  },
+  {
+    "product_id": "P012",
+    "date": "2026-08-25",
+    "price": 4499
+  },
+  {
+    "product_id": "P012",
+    "date": "2026-08-26",
+    "price": 4479
+  },
+  {
+    "product_id": "P012",
+    "date": "2026-08-27",
+    "price": 4457
+  },
+  {
+    "product_id": "P012",
+    "date": "2026-08-28",
+    "price": 4499
+  },
+  {
+    "product_id": "P012",
+    "date": "2026-08-29",
+    "price": 3499
+  },
+  {
+    "product_id": "P008",
+    "date": "2026-07-26",
+    "price": 3840
+  },
+  {
+    "product_id": "P008",
+    "date": "2026-07-27",
+    "price": 3801
+  },
+  {
+    "product_id": "P008",
+    "date": "2026-07-28",
+    "price": 3799
+  },
+  {
+    "product_id": "P008",
+    "date": "2026-07-29",
+    "price": 3885
+  },
+  {
+    "product_id": "P008",
+    "date": "2026-07-30",
+    "price": 3884
+  },
+  {
+    "product_id": "P008",
+    "date": "2026-07-31",
+    "price": 3854
+  },
+  {
+    "product_id": "P008",
+    "date": "2026-08-01",
+    "price": 3775
+  },
+  {
+    "product_id": "P008",
+    "date": "2026-08-02",
+    "price": 3780
+  },
+  {
+    "product_id": "P008",
+    "date": "2026-08-03",
+    "price": 3849
+  },
+  {
+    "product_id": "P008",
+    "date": "2026-08-04",
+    "price": 3903
+  },
+  {
+    "product_id": "P008",
+    "date": "2026-08-05",
+    "price": 3854
+  },
+  {
+    "product_id": "P008",
+    "date": "2026-08-06",
+    "price": 3842
+  },
+  {
+    "product_id": "P008",
+    "date": "2026-08-07",
+    "price": 3952
+  },
+  {
+    "product_id": "P008",
+    "date": "2026-08-08",
+    "price": 3891
+  },
+  {
+    "product_id": "P008",
+    "date": "2026-08-09",
+    "price": 3922
+  },
+  {
+    "product_id": "P008",
+    "date": "2026-08-10",
+    "price": 3902
+  },
+  {
+    "product_id": "P008",
+    "date": "2026-08-11",
+    "price": 3911
+  },
+  {
+    "product_id": "P008",
+    "date": "2026-08-12",
+    "price": 3843
+  },
+  {
+    "product_id": "P008",
+    "date": "2026-08-13",
+    "price": 3884
+  },
+  {
+    "product_id": "P008",
+    "date": "2026-08-14",
+    "price": 3859
+  },
+  {
+    "product_id": "P008",
+    "date": "2026-08-15",
+    "price": 3896
+  },
+  {
+    "product_id": "P008",
+    "date": "2026-08-16",
+    "price": 3963
+  },
+  {
+    "product_id": "P008",
+    "date": "2026-08-17",
+    "price": 3898
+  },
+  {
+    "product_id": "P008",
+    "date": "2026-08-18",
+    "price": 3939
+  },
+  {
+    "product_id": "P008",
+    "date": "2026-08-19",
+    "price": 3910
+  },
+  {
+    "product_id": "P008",
+    "date": "2026-08-20",
+    "price": 3986
+  },
+  {
+    "product_id": "P008",
+    "date": "2026-08-21",
+    "price": 3999
+  },
+  {
+    "product_id": "P008",
+    "date": "2026-08-22",
+    "price": 3999
+  },
+  {
+    "product_id": "P008",
+    "date": "2026-08-23",
+    "price": 3878
+  },
+  {
+    "product_id": "P008",
+    "date": "2026-08-24",
+    "price": 3999
+  },
+  {
+    "product_id": "P008",
+    "date": "2026-08-25",
+    "price": 3976
+  },
+  {
+    "product_id": "P008",
+    "date": "2026-08-26",
+    "price": 3914
+  },
+  {
+    "product_id": "P008",
+    "date": "2026-08-27",
+    "price": 3928
+  },
+  {
+    "product_id": "P008",
+    "date": "2026-08-28",
+    "price": 3999
+  },
+  {
+    "product_id": "P008",
+    "date": "2026-08-29",
+    "price": 2499
+  },
+  {
+    "product_id": "P009",
+    "date": "2026-07-16",
+    "price": 2062
+  },
+  {
+    "product_id": "P009",
+    "date": "2026-07-17",
+    "price": 2133
+  },
+  {
+    "product_id": "P009",
+    "date": "2026-07-18",
+    "price": 2112
+  },
+  {
+    "product_id": "P009",
+    "date": "2026-07-19",
+    "price": 2054
+  },
+  {
+    "product_id": "P009",
+    "date": "2026-07-20",
+    "price": 2138
+  },
+  {
+    "product_id": "P009",
+    "date": "2026-07-21",
+    "price": 2160
+  },
+  {
+    "product_id": "P009",
+    "date": "2026-07-22",
+    "price": 2149
+  },
+  {
+    "product_id": "P009",
+    "date": "2026-07-23",
+    "price": 2073
+  },
+  {
+    "product_id": "P009",
+    "date": "2026-07-24",
+    "price": 2097
+  },
+  {
+    "product_id": "P009",
+    "date": "2026-07-25",
+    "price": 2105
+  },
+  {
+    "product_id": "P009",
+    "date": "2026-07-26",
+    "price": 2099
+  },
+  {
+    "product_id": "P009",
+    "date": "2026-07-27",
+    "price": 2079
+  },
+  {
+    "product_id": "P009",
+    "date": "2026-07-28",
+    "price": 2115
+  },
+  {
+    "product_id": "P009",
+    "date": "2026-07-29",
+    "price": 2233
+  },
+  {
+    "product_id": "P009",
+    "date": "2026-07-30",
+    "price": 2206
+  },
+  {
+    "product_id": "P009",
+    "date": "2026-07-31",
+    "price": 2129
+  },
+  {
+    "product_id": "P009",
+    "date": "2026-08-01",
+    "price": 2253
+  },
+  {
+    "product_id": "P009",
+    "date": "2026-08-02",
+    "price": 2254
+  },
+  {
+    "product_id": "P009",
+    "date": "2026-08-03",
+    "price": 2228
+  },
+  {
+    "product_id": "P009",
+    "date": "2026-08-04",
+    "price": 2201
+  },
+  {
+    "product_id": "P009",
+    "date": "2026-08-05",
+    "price": 2156
+  },
+  {
+    "product_id": "P009",
+    "date": "2026-08-06",
+    "price": 2262
+  },
+  {
+    "product_id": "P009",
+    "date": "2026-08-07",
+    "price": 2267
+  },
+  {
+    "product_id": "P009",
+    "date": "2026-08-08",
+    "price": 2165
+  },
+  {
+    "product_id": "P009",
+    "date": "2026-08-09",
+    "price": 2142
+  },
+  {
+    "product_id": "P009",
+    "date": "2026-08-10",
+    "price": 2145
+  },
+  {
+    "product_id": "P009",
+    "date": "2026-08-11",
+    "price": 2173
+  },
+  {
+    "product_id": "P009",
+    "date": "2026-08-12",
+    "price": 2286
+  },
+  {
+    "product_id": "P009",
+    "date": "2026-08-13",
+    "price": 2192
+  },
+  {
+    "product_id": "P009",
+    "date": "2026-08-14",
+    "price": 2273
+  },
+  {
+    "product_id": "P009",
+    "date": "2026-08-15",
+    "price": 2216
+  },
+  {
+    "product_id": "P009",
+    "date": "2026-08-16",
+    "price": 2226
+  },
+  {
+    "product_id": "P009",
+    "date": "2026-08-17",
+    "price": 2184
+  },
+  {
+    "product_id": "P009",
+    "date": "2026-08-18",
+    "price": 2246
+  },
+  {
+    "product_id": "P009",
+    "date": "2026-08-19",
+    "price": 2241
+  },
+  {
+    "product_id": "P009",
+    "date": "2026-08-20",
+    "price": 2266
+  },
+  {
+    "product_id": "P009",
+    "date": "2026-08-21",
+    "price": 2299
+  },
+  {
+    "product_id": "P009",
+    "date": "2026-08-22",
+    "price": 2263
+  },
+  {
+    "product_id": "P009",
+    "date": "2026-08-23",
+    "price": 2299
+  },
+  {
+    "product_id": "P009",
+    "date": "2026-08-24",
+    "price": 2295
+  },
+  {
+    "product_id": "P009",
+    "date": "2026-08-25",
+    "price": 2283
+  },
+  {
+    "product_id": "P009",
+    "date": "2026-08-26",
+    "price": 2299
+  },
+  {
+    "product_id": "P009",
+    "date": "2026-08-27",
+    "price": 2299
+  },
+  {
+    "product_id": "P009",
+    "date": "2026-08-28",
+    "price": 2265
+  },
+  {
+    "product_id": "P009",
+    "date": "2026-08-29",
+    "price": 1199
+  },
+  {
+    "product_id": "P010",
+    "date": "2026-07-26",
+    "price": 1945
+  },
+  {
+    "product_id": "P010",
+    "date": "2026-07-27",
+    "price": 1977
+  },
+  {
+    "product_id": "P010",
+    "date": "2026-07-28",
+    "price": 1999
+  },
+  {
+    "product_id": "P010",
+    "date": "2026-07-29",
+    "price": 1999
+  },
+  {
+    "product_id": "P010",
+    "date": "2026-07-30",
+    "price": 1982
+  },
+  {
+    "product_id": "P010",
+    "date": "2026-07-31",
+    "price": 1999
+  },
+  {
+    "product_id": "P010",
+    "date": "2026-08-01",
+    "price": 1918
+  },
+  {
+    "product_id": "P010",
+    "date": "2026-08-02",
+    "price": 1999
+  },
+  {
+    "product_id": "P010",
+    "date": "2026-08-03",
+    "price": 1933
+  },
+  {
+    "product_id": "P010",
+    "date": "2026-08-04",
+    "price": 1999
+  },
+  {
+    "product_id": "P010",
+    "date": "2026-08-05",
+    "price": 1999
+  },
+  {
+    "product_id": "P010",
+    "date": "2026-08-06",
+    "price": 1914
+  },
+  {
+    "product_id": "P010",
+    "date": "2026-08-07",
+    "price": 1999
+  },
+  {
+    "product_id": "P010",
+    "date": "2026-08-08",
+    "price": 1966
+  },
+  {
+    "product_id": "P010",
+    "date": "2026-08-09",
+    "price": 1999
+  },
+  {
+    "product_id": "P010",
+    "date": "2026-08-10",
+    "price": 1931
+  },
+  {
+    "product_id": "P010",
+    "date": "2026-08-11",
+    "price": 1973
+  },
+  {
+    "product_id": "P010",
+    "date": "2026-08-12",
+    "price": 1984
+  },
+  {
+    "product_id": "P010",
+    "date": "2026-08-13",
+    "price": 1981
+  },
+  {
+    "product_id": "P010",
+    "date": "2026-08-14",
+    "price": 1999
+  },
+  {
+    "product_id": "P010",
+    "date": "2026-08-15",
+    "price": 1999
+  },
+  {
+    "product_id": "P010",
+    "date": "2026-08-16",
+    "price": 1990
+  },
+  {
+    "product_id": "P010",
+    "date": "2026-08-17",
+    "price": 1999
+  },
+  {
+    "product_id": "P010",
+    "date": "2026-08-18",
+    "price": 1985
+  },
+  {
+    "product_id": "P010",
+    "date": "2026-08-19",
+    "price": 1999
+  },
+  {
+    "product_id": "P010",
+    "date": "2026-08-20",
+    "price": 1999
+  },
+  {
+    "product_id": "P010",
+    "date": "2026-08-21",
+    "price": 1999
+  },
+  {
+    "product_id": "P010",
+    "date": "2026-08-22",
+    "price": 1999
+  },
+  {
+    "product_id": "P010",
+    "date": "2026-08-23",
+    "price": 1999
+  },
+  {
+    "product_id": "P010",
+    "date": "2026-08-24",
+    "price": 1999
+  },
+  {
+    "product_id": "P010",
+    "date": "2026-08-25",
+    "price": 1999
+  },
+  {
+    "product_id": "P010",
+    "date": "2026-08-26",
+    "price": 1999
+  },
+  {
+    "product_id": "P010",
+    "date": "2026-08-27",
+    "price": 1999
+  },
+  {
+    "product_id": "P010",
+    "date": "2026-08-28",
+    "price": 1999
+  },
+  {
+    "product_id": "P010",
+    "date": "2026-08-29",
+    "price": 899
+  },
+  {
+    "product_id": "P011",
+    "date": "2026-07-26",
+    "price": 2510
+  },
+  {
+    "product_id": "P011",
+    "date": "2026-07-27",
+    "price": 2619
+  },
+  {
+    "product_id": "P011",
+    "date": "2026-07-28",
+    "price": 2610
+  },
+  {
+    "product_id": "P011",
+    "date": "2026-07-29",
+    "price": 2643
+  },
+  {
+    "product_id": "P011",
+    "date": "2026-07-30",
+    "price": 2512
+  },
+  {
+    "product_id": "P011",
+    "date": "2026-07-31",
+    "price": 2526
+  },
+  {
+    "product_id": "P011",
+    "date": "2026-08-01",
+    "price": 2628
+  },
+  {
+    "product_id": "P011",
+    "date": "2026-08-02",
+    "price": 2603
+  },
+  {
+    "product_id": "P011",
+    "date": "2026-08-03",
+    "price": 2681
+  },
+  {
+    "product_id": "P011",
+    "date": "2026-08-04",
+    "price": 2659
+  },
+  {
+    "product_id": "P011",
+    "date": "2026-08-05",
+    "price": 2690
+  },
+  {
+    "product_id": "P011",
+    "date": "2026-08-06",
+    "price": 2671
+  },
+  {
+    "product_id": "P011",
+    "date": "2026-08-07",
+    "price": 2596
+  },
+  {
+    "product_id": "P011",
+    "date": "2026-08-08",
+    "price": 2620
+  },
+  {
+    "product_id": "P011",
+    "date": "2026-08-09",
+    "price": 2670
+  },
+  {
+    "product_id": "P011",
+    "date": "2026-08-10",
+    "price": 2690
+  },
+  {
+    "product_id": "P011",
+    "date": "2026-08-11",
+    "price": 2701
+  },
+  {
+    "product_id": "P011",
+    "date": "2026-08-12",
+    "price": 2692
+  },
+  {
+    "product_id": "P011",
+    "date": "2026-08-13",
+    "price": 2704
+  },
+  {
+    "product_id": "P011",
+    "date": "2026-08-14",
+    "price": 2643
+  },
+  {
+    "product_id": "P011",
+    "date": "2026-08-15",
+    "price": 2718
+  },
+  {
+    "product_id": "P011",
+    "date": "2026-08-16",
+    "price": 2656
+  },
+  {
+    "product_id": "P011",
+    "date": "2026-08-17",
+    "price": 2738
+  },
+  {
+    "product_id": "P011",
+    "date": "2026-08-18",
+    "price": 2651
+  },
+  {
+    "product_id": "P011",
+    "date": "2026-08-19",
+    "price": 2719
+  },
+  {
+    "product_id": "P011",
+    "date": "2026-08-20",
+    "price": 2645
+  },
+  {
+    "product_id": "P011",
+    "date": "2026-08-21",
+    "price": 2721
+  },
+  {
+    "product_id": "P011",
+    "date": "2026-08-22",
+    "price": 2651
+  },
+  {
+    "product_id": "P011",
+    "date": "2026-08-23",
+    "price": 2725
+  },
+  {
+    "product_id": "P011",
+    "date": "2026-08-24",
+    "price": 2743
+  },
+  {
+    "product_id": "P011",
+    "date": "2026-08-25",
+    "price": 2715
+  },
+  {
+    "product_id": "P011",
+    "date": "2026-08-26",
+    "price": 2658
+  },
+  {
+    "product_id": "P011",
+    "date": "2026-08-27",
+    "price": 2706
+  },
+  {
+    "product_id": "P011",
+    "date": "2026-08-28",
+    "price": 2759
+  },
+  {
+    "product_id": "P011",
+    "date": "2026-08-29",
+    "price": 1499
+  },
+  {
+    "product_id": "P006",
+    "date": "2026-07-26",
+    "price": 873
+  },
+  {
+    "product_id": "P006",
+    "date": "2026-07-27",
+    "price": 832
+  },
+  {
+    "product_id": "P006",
+    "date": "2026-07-28",
+    "price": 845
+  },
+  {
+    "product_id": "P006",
+    "date": "2026-07-29",
+    "price": 904
+  },
+  {
+    "product_id": "P006",
+    "date": "2026-07-30",
+    "price": 852
+  },
+  {
+    "product_id": "P006",
+    "date": "2026-07-31",
+    "price": 885
+  },
+  {
+    "product_id": "P006",
+    "date": "2026-08-01",
+    "price": 861
+  },
+  {
+    "product_id": "P006",
+    "date": "2026-08-02",
+    "price": 950
+  },
+  {
+    "product_id": "P006",
+    "date": "2026-08-03",
+    "price": 892
+  },
+  {
+    "product_id": "P006",
+    "date": "2026-08-04",
+    "price": 865
+  },
+  {
+    "product_id": "P006",
+    "date": "2026-08-05",
+    "price": 947
+  },
+  {
+    "product_id": "P006",
+    "date": "2026-08-06",
+    "price": 975
+  },
+  {
+    "product_id": "P006",
+    "date": "2026-08-07",
+    "price": 897
+  },
+  {
+    "product_id": "P006",
+    "date": "2026-08-08",
+    "price": 918
+  },
+  {
+    "product_id": "P006",
+    "date": "2026-08-09",
+    "price": 907
+  },
+  {
+    "product_id": "P006",
+    "date": "2026-08-10",
+    "price": 981
+  },
+  {
+    "product_id": "P006",
+    "date": "2026-08-11",
+    "price": 999
+  },
+  {
+    "product_id": "P006",
+    "date": "2026-08-12",
+    "price": 984
+  },
+  {
+    "product_id": "P006",
+    "date": "2026-08-13",
+    "price": 972
+  },
+  {
+    "product_id": "P006",
+    "date": "2026-08-14",
+    "price": 998
+  },
+  {
+    "product_id": "P006",
+    "date": "2026-08-15",
+    "price": 946
+  },
+  {
+    "product_id": "P006",
+    "date": "2026-08-16",
+    "price": 992
+  },
+  {
+    "product_id": "P006",
+    "date": "2026-08-17",
+    "price": 987
+  },
+  {
+    "product_id": "P006",
+    "date": "2026-08-18",
+    "price": 934
+  },
+  {
+    "product_id": "P006",
+    "date": "2026-08-19",
+    "price": 999
+  },
+  {
+    "product_id": "P006",
+    "date": "2026-08-20",
+    "price": 925
+  },
+  {
+    "product_id": "P006",
+    "date": "2026-08-21",
+    "price": 999
+  },
+  {
+    "product_id": "P006",
+    "date": "2026-08-22",
+    "price": 999
+  },
+  {
+    "product_id": "P006",
+    "date": "2026-08-23",
+    "price": 999
+  },
+  {
+    "product_id": "P006",
+    "date": "2026-08-24",
+    "price": 999
+  },
+  {
+    "product_id": "P006",
+    "date": "2026-08-25",
+    "price": 950
+  },
+  {
+    "product_id": "P006",
+    "date": "2026-08-26",
+    "price": 999
+  },
+  {
+    "product_id": "P006",
+    "date": "2026-08-27",
+    "price": 999
+  },
+  {
+    "product_id": "P006",
+    "date": "2026-08-28",
+    "price": 999
+  },
+  {
+    "product_id": "P006",
+    "date": "2026-08-29",
+    "price": 599
+  },
+  {
+    "product_id": "P007",
+    "date": "2026-07-26",
+    "price": 1267
+  },
+  {
+    "product_id": "P007",
+    "date": "2026-07-27",
+    "price": 1284
+  },
+  {
+    "product_id": "P007",
+    "date": "2026-07-28",
+    "price": 1319
+  },
+  {
+    "product_id": "P007",
+    "date": "2026-07-29",
+    "price": 1292
+  },
+  {
+    "product_id": "P007",
+    "date": "2026-07-30",
+    "price": 1292
+  },
+  {
+    "product_id": "P007",
+    "date": "2026-07-31",
+    "price": 1343
+  },
+  {
+    "product_id": "P007",
+    "date": "2026-08-01",
+    "price": 1350
+  },
+  {
+    "product_id": "P007",
+    "date": "2026-08-02",
+    "price": 1296
+  },
+  {
+    "product_id": "P007",
+    "date": "2026-08-03",
+    "price": 1337
+  },
+  {
+    "product_id": "P007",
+    "date": "2026-08-04",
+    "price": 1365
+  },
+  {
+    "product_id": "P007",
+    "date": "2026-08-05",
+    "price": 1334
+  },
+  {
+    "product_id": "P007",
+    "date": "2026-08-06",
+    "price": 1414
+  },
+  {
+    "product_id": "P007",
+    "date": "2026-08-07",
+    "price": 1377
+  },
+  {
+    "product_id": "P007",
+    "date": "2026-08-08",
+    "price": 1419
+  },
+  {
+    "product_id": "P007",
+    "date": "2026-08-09",
+    "price": 1359
+  },
+  {
+    "product_id": "P007",
+    "date": "2026-08-10",
+    "price": 1463
+  },
+  {
+    "product_id": "P007",
+    "date": "2026-08-11",
+    "price": 1462
+  },
+  {
+    "product_id": "P007",
+    "date": "2026-08-12",
+    "price": 1482
+  },
+  {
+    "product_id": "P007",
+    "date": "2026-08-13",
+    "price": 1467
+  },
+  {
+    "product_id": "P007",
+    "date": "2026-08-14",
+    "price": 1429
+  },
+  {
+    "product_id": "P007",
+    "date": "2026-08-15",
+    "price": 1373
+  },
+  {
+    "product_id": "P007",
+    "date": "2026-08-16",
+    "price": 1427
+  },
+  {
+    "product_id": "P007",
+    "date": "2026-08-17",
+    "price": 1375
+  },
+  {
+    "product_id": "P007",
+    "date": "2026-08-18",
+    "price": 1412
+  },
+  {
+    "product_id": "P007",
+    "date": "2026-08-19",
+    "price": 1479
+  },
+  {
+    "product_id": "P007",
+    "date": "2026-08-20",
+    "price": 1394
+  },
+  {
+    "product_id": "P007",
+    "date": "2026-08-21",
+    "price": 1449
+  },
+  {
+    "product_id": "P007",
+    "date": "2026-08-22",
+    "price": 1390
+  },
+  {
+    "product_id": "P007",
+    "date": "2026-08-23",
+    "price": 1413
+  },
+  {
+    "product_id": "P007",
+    "date": "2026-08-24",
+    "price": 1462
+  },
+  {
+    "product_id": "P007",
+    "date": "2026-08-25",
+    "price": 1422
+  },
+  {
+    "product_id": "P007",
+    "date": "2026-08-26",
+    "price": 1499
+  },
+  {
+    "product_id": "P007",
+    "date": "2026-08-27",
+    "price": 1467
+  },
+  {
+    "product_id": "P007",
+    "date": "2026-08-28",
+    "price": 1433
+  },
+  {
+    "product_id": "P007",
+    "date": "2026-08-29",
+    "price": 799
+  },
+  {
+    "product_id": "P016",
+    "date": "2026-07-26",
+    "price": 6289
+  },
+  {
+    "product_id": "P016",
+    "date": "2026-07-27",
+    "price": 6180
+  },
+  {
+    "product_id": "P016",
+    "date": "2026-07-28",
+    "price": 6269
+  },
+  {
+    "product_id": "P016",
+    "date": "2026-07-29",
+    "price": 6329
+  },
+  {
+    "product_id": "P016",
+    "date": "2026-07-30",
+    "price": 6299
+  },
+  {
+    "product_id": "P016",
+    "date": "2026-07-31",
+    "price": 6266
+  },
+  {
+    "product_id": "P016",
+    "date": "2026-08-01",
+    "price": 6362
+  },
+  {
+    "product_id": "P016",
+    "date": "2026-08-02",
+    "price": 6241
+  },
+  {
+    "product_id": "P016",
+    "date": "2026-08-03",
+    "price": 6224
+  },
+  {
+    "product_id": "P016",
+    "date": "2026-08-04",
+    "price": 6352
+  },
+  {
+    "product_id": "P016",
+    "date": "2026-08-05",
+    "price": 6284
+  },
+  {
+    "product_id": "P016",
+    "date": "2026-08-06",
+    "price": 6256
+  },
+  {
+    "product_id": "P016",
+    "date": "2026-08-07",
+    "price": 6274
+  },
+  {
+    "product_id": "P016",
+    "date": "2026-08-08",
+    "price": 6305
+  },
+  {
+    "product_id": "P016",
+    "date": "2026-08-09",
+    "price": 6255
+  },
+  {
+    "product_id": "P016",
+    "date": "2026-08-10",
+    "price": 6294
+  },
+  {
+    "product_id": "P016",
+    "date": "2026-08-11",
+    "price": 6304
+  },
+  {
+    "product_id": "P016",
+    "date": "2026-08-12",
+    "price": 6337
+  },
+  {
+    "product_id": "P016",
+    "date": "2026-08-13",
+    "price": 6423
+  },
+  {
+    "product_id": "P016",
+    "date": "2026-08-14",
+    "price": 6346
+  },
+  {
+    "product_id": "P016",
+    "date": "2026-08-15",
+    "price": 6408
+  },
+  {
+    "product_id": "P016",
+    "date": "2026-08-16",
+    "price": 6330
+  },
+  {
+    "product_id": "P016",
+    "date": "2026-08-17",
+    "price": 6357
+  },
+  {
+    "product_id": "P016",
+    "date": "2026-08-18",
+    "price": 6402
+  },
+  {
+    "product_id": "P016",
+    "date": "2026-08-19",
+    "price": 6421
+  },
+  {
+    "product_id": "P016",
+    "date": "2026-08-20",
+    "price": 6343
+  },
+  {
+    "product_id": "P016",
+    "date": "2026-08-21",
+    "price": 6372
+  },
+  {
+    "product_id": "P016",
+    "date": "2026-08-22",
+    "price": 6396
+  },
+  {
+    "product_id": "P016",
+    "date": "2026-08-23",
+    "price": 6317
+  },
+  {
+    "product_id": "P016",
+    "date": "2026-08-24",
+    "price": 6382
+  },
+  {
+    "product_id": "P016",
+    "date": "2026-08-25",
+    "price": 6332
+  },
+  {
+    "product_id": "P016",
+    "date": "2026-08-26",
+    "price": 6331
+  },
+  {
+    "product_id": "P016",
+    "date": "2026-08-27",
+    "price": 6337
+  },
+  {
+    "product_id": "P016",
+    "date": "2026-08-28",
+    "price": 6467
+  },
+  {
+    "product_id": "P016",
+    "date": "2026-08-29",
+    "price": 5499
+  },
+  {
+    "product_id": "P020",
+    "date": "2026-07-26",
+    "price": 1299
+  },
+  {
+    "product_id": "P020",
+    "date": "2026-07-27",
+    "price": 1299
+  },
+  {
+    "product_id": "P020",
+    "date": "2026-07-28",
+    "price": 1261
+  },
+  {
+    "product_id": "P020",
+    "date": "2026-07-29",
+    "price": 1299
+  },
+  {
+    "product_id": "P020",
+    "date": "2026-07-30",
+    "price": 1236
+  },
+  {
+    "product_id": "P020",
+    "date": "2026-07-31",
+    "price": 1299
+  },
+  {
+    "product_id": "P020",
+    "date": "2026-08-01",
+    "price": 1299
+  },
+  {
+    "product_id": "P020",
+    "date": "2026-08-02",
+    "price": 1299
+  },
+  {
+    "product_id": "P020",
+    "date": "2026-08-03",
+    "price": 1299
+  },
+  {
+    "product_id": "P020",
+    "date": "2026-08-04",
+    "price": 1299
+  },
+  {
+    "product_id": "P020",
+    "date": "2026-08-05",
+    "price": 1299
+  },
+  {
+    "product_id": "P020",
+    "date": "2026-08-06",
+    "price": 1299
+  },
+  {
+    "product_id": "P020",
+    "date": "2026-08-07",
+    "price": 1299
+  },
+  {
+    "product_id": "P020",
+    "date": "2026-08-08",
+    "price": 1299
+  },
+  {
+    "product_id": "P020",
+    "date": "2026-08-09",
+    "price": 1299
+  },
+  {
+    "product_id": "P020",
+    "date": "2026-08-10",
+    "price": 1299
+  },
+  {
+    "product_id": "P020",
+    "date": "2026-08-11",
+    "price": 1299
+  },
+  {
+    "product_id": "P020",
+    "date": "2026-08-12",
+    "price": 1299
+  },
+  {
+    "product_id": "P020",
+    "date": "2026-08-13",
+    "price": 1292
+  },
+  {
+    "product_id": "P020",
+    "date": "2026-08-14",
+    "price": 1299
+  },
+  {
+    "product_id": "P020",
+    "date": "2026-08-15",
+    "price": 1292
+  },
+  {
+    "product_id": "P020",
+    "date": "2026-08-16",
+    "price": 1299
+  },
+  {
+    "product_id": "P020",
+    "date": "2026-08-17",
+    "price": 1299
+  },
+  {
+    "product_id": "P020",
+    "date": "2026-08-18",
+    "price": 1299
+  },
+  {
+    "product_id": "P020",
+    "date": "2026-08-19",
+    "price": 1299
+  },
+  {
+    "product_id": "P020",
+    "date": "2026-08-20",
+    "price": 1299
+  },
+  {
+    "product_id": "P020",
+    "date": "2026-08-21",
+    "price": 1299
+  },
+  {
+    "product_id": "P020",
+    "date": "2026-08-22",
+    "price": 1299
+  },
+  {
+    "product_id": "P020",
+    "date": "2026-08-23",
+    "price": 1299
+  },
+  {
+    "product_id": "P020",
+    "date": "2026-08-24",
+    "price": 1299
+  },
+  {
+    "product_id": "P020",
+    "date": "2026-08-25",
+    "price": 1299
+  },
+  {
+    "product_id": "P020",
+    "date": "2026-08-26",
+    "price": 1299
+  },
+  {
+    "product_id": "P020",
+    "date": "2026-08-27",
+    "price": 1299
+  },
+  {
+    "product_id": "P020",
+    "date": "2026-08-28",
+    "price": 1299
+  },
+  {
+    "product_id": "P020",
+    "date": "2026-08-29",
+    "price": 699
+  },
+  {
+    "product_id": "P013",
+    "date": "2026-07-26",
+    "price": 1960
+  },
+  {
+    "product_id": "P013",
+    "date": "2026-07-27",
+    "price": 1993
+  },
+  {
+    "product_id": "P013",
+    "date": "2026-07-28",
+    "price": 2044
+  },
+  {
+    "product_id": "P013",
+    "date": "2026-07-29",
+    "price": 1935
+  },
+  {
+    "product_id": "P013",
+    "date": "2026-07-30",
+    "price": 2007
+  },
+  {
+    "product_id": "P013",
+    "date": "2026-07-31",
+    "price": 2038
+  },
+  {
+    "product_id": "P013",
+    "date": "2026-08-01",
+    "price": 2034
+  },
+  {
+    "product_id": "P013",
+    "date": "2026-08-02",
+    "price": 2095
+  },
+  {
+    "product_id": "P013",
+    "date": "2026-08-03",
+    "price": 2042
+  },
+  {
+    "product_id": "P013",
+    "date": "2026-08-04",
+    "price": 2027
+  },
+  {
+    "product_id": "P013",
+    "date": "2026-08-05",
+    "price": 1978
+  },
+  {
+    "product_id": "P013",
+    "date": "2026-08-06",
+    "price": 2054
+  },
+  {
+    "product_id": "P013",
+    "date": "2026-08-07",
+    "price": 2035
+  },
+  {
+    "product_id": "P013",
+    "date": "2026-08-08",
+    "price": 2076
+  },
+  {
+    "product_id": "P013",
+    "date": "2026-08-09",
+    "price": 2036
+  },
+  {
+    "product_id": "P013",
+    "date": "2026-08-10",
+    "price": 1995
+  },
+  {
+    "product_id": "P013",
+    "date": "2026-08-11",
+    "price": 2085
+  },
+  {
+    "product_id": "P013",
+    "date": "2026-08-12",
+    "price": 2102
+  },
+  {
+    "product_id": "P013",
+    "date": "2026-08-13",
+    "price": 2031
+  },
+  {
+    "product_id": "P013",
+    "date": "2026-08-14",
+    "price": 2136
+  },
+  {
+    "product_id": "P013",
+    "date": "2026-08-15",
+    "price": 2091
+  },
+  {
+    "product_id": "P013",
+    "date": "2026-08-16",
+    "price": 2153
+  },
+  {
+    "product_id": "P013",
+    "date": "2026-08-17",
+    "price": 2081
+  },
+  {
+    "product_id": "P013",
+    "date": "2026-08-18",
+    "price": 2098
+  },
+  {
+    "product_id": "P013",
+    "date": "2026-08-19",
+    "price": 2169
+  },
+  {
+    "product_id": "P013",
+    "date": "2026-08-20",
+    "price": 2046
+  },
+  {
+    "product_id": "P013",
+    "date": "2026-08-21",
+    "price": 2073
+  },
+  {
+    "product_id": "P013",
+    "date": "2026-08-22",
+    "price": 2122
+  },
+  {
+    "product_id": "P013",
+    "date": "2026-08-23",
+    "price": 2082
+  },
+  {
+    "product_id": "P013",
+    "date": "2026-08-24",
+    "price": 2101
+  },
+  {
+    "product_id": "P013",
+    "date": "2026-08-25",
+    "price": 2172
+  },
+  {
+    "product_id": "P013",
+    "date": "2026-08-26",
+    "price": 2199
+  },
+  {
+    "product_id": "P013",
+    "date": "2026-08-27",
+    "price": 2090
+  },
+  {
+    "product_id": "P013",
+    "date": "2026-08-28",
+    "price": 2185
+  },
+  {
+    "product_id": "P013",
+    "date": "2026-08-29",
+    "price": 1099
+  },
+  {
+    "product_id": "P014",
+    "date": "2026-07-26",
+    "price": 2111
+  },
+  {
+    "product_id": "P014",
+    "date": "2026-07-27",
+    "price": 2078
+  },
+  {
+    "product_id": "P014",
+    "date": "2026-07-28",
+    "price": 2211
+  },
+  {
+    "product_id": "P014",
+    "date": "2026-07-29",
+    "price": 2202
+  },
+  {
+    "product_id": "P014",
+    "date": "2026-07-30",
+    "price": 2111
+  },
+  {
+    "product_id": "P014",
+    "date": "2026-07-31",
+    "price": 2229
+  },
+  {
+    "product_id": "P014",
+    "date": "2026-08-01",
+    "price": 2181
+  },
+  {
+    "product_id": "P014",
+    "date": "2026-08-02",
+    "price": 2170
+  },
+  {
+    "product_id": "P014",
+    "date": "2026-08-03",
+    "price": 2218
+  },
+  {
+    "product_id": "P014",
+    "date": "2026-08-04",
+    "price": 2135
+  },
+  {
+    "product_id": "P014",
+    "date": "2026-08-05",
+    "price": 2174
+  },
+  {
+    "product_id": "P014",
+    "date": "2026-08-06",
+    "price": 2265
+  },
+  {
+    "product_id": "P014",
+    "date": "2026-08-07",
+    "price": 2149
+  },
+  {
+    "product_id": "P014",
+    "date": "2026-08-08",
+    "price": 2128
+  },
+  {
+    "product_id": "P014",
+    "date": "2026-08-09",
+    "price": 2253
+  },
+  {
+    "product_id": "P014",
+    "date": "2026-08-10",
+    "price": 2287
+  },
+  {
+    "product_id": "P014",
+    "date": "2026-08-11",
+    "price": 2241
+  },
+  {
+    "product_id": "P014",
+    "date": "2026-08-12",
+    "price": 2266
+  },
+  {
+    "product_id": "P014",
+    "date": "2026-08-13",
+    "price": 2177
+  },
+  {
+    "product_id": "P014",
+    "date": "2026-08-14",
+    "price": 2281
+  },
+  {
+    "product_id": "P014",
+    "date": "2026-08-15",
+    "price": 2281
+  },
+  {
+    "product_id": "P014",
+    "date": "2026-08-16",
+    "price": 2302
+  },
+  {
+    "product_id": "P014",
+    "date": "2026-08-17",
+    "price": 2166
+  },
+  {
+    "product_id": "P014",
+    "date": "2026-08-18",
+    "price": 2316
+  },
+  {
+    "product_id": "P014",
+    "date": "2026-08-19",
+    "price": 2230
+  },
+  {
+    "product_id": "P014",
+    "date": "2026-08-20",
+    "price": 2198
+  },
+  {
+    "product_id": "P014",
+    "date": "2026-08-21",
+    "price": 2189
+  },
+  {
+    "product_id": "P014",
+    "date": "2026-08-22",
+    "price": 2197
+  },
+  {
+    "product_id": "P014",
+    "date": "2026-08-23",
+    "price": 2226
+  },
+  {
+    "product_id": "P014",
+    "date": "2026-08-24",
+    "price": 2289
+  },
+  {
+    "product_id": "P014",
+    "date": "2026-08-25",
+    "price": 2228
+  },
+  {
+    "product_id": "P014",
+    "date": "2026-08-26",
+    "price": 2303
+  },
+  {
+    "product_id": "P014",
+    "date": "2026-08-27",
+    "price": 2327
+  },
+  {
+    "product_id": "P014",
+    "date": "2026-08-28",
+    "price": 2359
+  },
+  {
+    "product_id": "P014",
+    "date": "2026-08-29",
+    "price": 1199
+  },
+  {
+    "product_id": "P015",
+    "date": "2026-07-26",
+    "price": 5202
+  },
+  {
+    "product_id": "P015",
+    "date": "2026-07-27",
+    "price": 5183
+  },
+  {
+    "product_id": "P015",
+    "date": "2026-07-28",
+    "price": 5114
+  },
+  {
+    "product_id": "P015",
+    "date": "2026-07-29",
+    "price": 5182
+  },
+  {
+    "product_id": "P015",
+    "date": "2026-07-30",
+    "price": 5129
+  },
+  {
+    "product_id": "P015",
+    "date": "2026-07-31",
+    "price": 5067
+  },
+  {
+    "product_id": "P015",
+    "date": "2026-08-01",
+    "price": 5188
+  },
+  {
+    "product_id": "P015",
+    "date": "2026-08-02",
+    "price": 5094
+  },
+  {
+    "product_id": "P015",
+    "date": "2026-08-03",
+    "price": 5210
+  },
+  {
+    "product_id": "P015",
+    "date": "2026-08-04",
+    "price": 5224
+  },
+  {
+    "product_id": "P015",
+    "date": "2026-08-05",
+    "price": 5115
+  },
+  {
+    "product_id": "P015",
+    "date": "2026-08-06",
+    "price": 5231
+  },
+  {
+    "product_id": "P015",
+    "date": "2026-08-07",
+    "price": 5118
+  },
+  {
+    "product_id": "P015",
+    "date": "2026-08-08",
+    "price": 5228
+  },
+  {
+    "product_id": "P015",
+    "date": "2026-08-09",
+    "price": 5176
+  },
+  {
+    "product_id": "P015",
+    "date": "2026-08-10",
+    "price": 5136
+  },
+  {
+    "product_id": "P015",
+    "date": "2026-08-11",
+    "price": 5189
+  },
+  {
+    "product_id": "P015",
+    "date": "2026-08-12",
+    "price": 5187
+  },
+  {
+    "product_id": "P015",
+    "date": "2026-08-13",
+    "price": 5184
+  },
+  {
+    "product_id": "P015",
+    "date": "2026-08-14",
+    "price": 5196
+  },
+  {
+    "product_id": "P015",
+    "date": "2026-08-15",
+    "price": 5259
+  },
+  {
+    "product_id": "P015",
+    "date": "2026-08-16",
+    "price": 5273
+  },
+  {
+    "product_id": "P015",
+    "date": "2026-08-17",
+    "price": 5249
+  },
+  {
+    "product_id": "P015",
+    "date": "2026-08-18",
+    "price": 5176
+  },
+  {
+    "product_id": "P015",
+    "date": "2026-08-19",
+    "price": 5284
+  },
+  {
+    "product_id": "P015",
+    "date": "2026-08-20",
+    "price": 5240
+  },
+  {
+    "product_id": "P015",
+    "date": "2026-08-21",
+    "price": 5183
+  },
+  {
+    "product_id": "P015",
+    "date": "2026-08-22",
+    "price": 5334
+  },
+  {
+    "product_id": "P015",
+    "date": "2026-08-23",
+    "price": 5232
+  },
+  {
+    "product_id": "P015",
+    "date": "2026-08-24",
+    "price": 5206
+  },
+  {
+    "product_id": "P015",
+    "date": "2026-08-25",
+    "price": 5345
+  },
+  {
+    "product_id": "P015",
+    "date": "2026-08-26",
+    "price": 5234
+  },
+  {
+    "product_id": "P015",
+    "date": "2026-08-27",
+    "price": 5286
+  },
+  {
+    "product_id": "P015",
+    "date": "2026-08-28",
+    "price": 5272
+  },
+  {
+    "product_id": "P015",
+    "date": "2026-08-29",
+    "price": 4299
+  }
+]

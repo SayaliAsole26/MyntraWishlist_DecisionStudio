@@ -1,0 +1,32 @@
+# secrets
+.env
+
+frontend/.env
+
+# python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+.pytest_cache/
+
+# sqlite
+*.db
+*.db-journal
+
+# node
+node_modules/
+frontend/dist/
+frontend/.vite/
+
+# ingest snapshots (keep folder)
+raw/*
+!raw/.gitkeep
+
+# os / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.log

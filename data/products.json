@@ -1,0 +1,2048 @@
+[
+  {
+    "product_id": "P001",
+    "brand": "Roadster",
+    "name": "Women Floral Printed Dress",
+    "gender": "Women",
+    "category": "Dresses",
+    "subcategory": "Casual Dresses",
+    "style": "Floral",
+    "price": 999,
+    "mrp": 1999,
+    "discount": 50,
+    "rating": 4.2,
+    "rating_count": 1200,
+    "image_url": "https://images.unsplash.com/photo-1515372039744-b8f02a3ae446?w=400&h=500&fit=crop",
+    "product_url": "https://www.myntra.com/",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Blue"
+    ],
+    "fit": "Regular",
+    "material": "Viscose",
+    "occasions": [
+      "Casual",
+      "Everyday",
+      "Vacation"
+    ],
+    "attributes": {
+      "similar_group": "dresses_casual",
+      "decision_role": "balanced"
+    }
+  },
+  {
+    "product_id": "P002",
+    "brand": "MANGO",
+    "name": "Solid A-Line Midi Dress",
+    "gender": "Women",
+    "category": "Dresses",
+    "subcategory": "Casual Dresses",
+    "style": "Solid",
+    "price": 1299,
+    "mrp": 2499,
+    "discount": 48,
+    "rating": 4.5,
+    "rating_count": 2800,
+    "image_url": "https://images.unsplash.com/photo-1566174053879-31528523f8ae?w=400&h=500&fit=crop",
+    "product_url": "https://www.myntra.com/",
+    "sizes": [
+      "S",
+      "M",
+      "L"
+    ],
+    "colors": [
+      "Black"
+    ],
+    "fit": "Regular",
+    "material": "Cotton",
+    "occasions": [
+      "Casual",
+      "Everyday"
+    ],
+    "attributes": {
+      "similar_group": "dresses_casual",
+      "decision_role": "best_reviewed"
+    }
+  },
+  {
+    "product_id": "P003",
+    "brand": "HERE&NOW",
+    "name": "Printed Fit & Flare Dress",
+    "gender": "Women",
+    "category": "Dresses",
+    "subcategory": "Casual Dresses",
+    "style": "Printed",
+    "price": 899,
+    "mrp": 1799,
+    "discount": 50,
+    "rating": 4.1,
+    "rating_count": 650,
+    "image_url": "https://images.unsplash.com/photo-1496747611176-843222e1e57c?w=400&h=500&fit=crop",
+    "product_url": "https://www.myntra.com/",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Pink"
+    ],
+    "fit": "Regular",
+    "material": "Polyester",
+    "occasions": [
+      "Casual",
+      "Everyday"
+    ],
+    "attributes": {
+      "similar_group": "dresses_casual",
+      "decision_role": "cheap"
+    }
+  },
+  {
+    "product_id": "P004",
+    "brand": "Nike",
+    "name": "Revolution 6 Running Shoes",
+    "gender": "Men",
+    "category": "Sneakers",
+    "subcategory": "Running",
+    "style": "Sport",
+    "price": 4999,
+    "mrp": 5999,
+    "discount": 17,
+    "rating": 4.2,
+    "rating_count": 890,
+    "image_url": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=400&h=500&fit=crop",
+    "product_url": "https://www.myntra.com/",
+    "sizes": [
+      "7",
+      "8",
+      "9",
+      "10",
+      "11"
+    ],
+    "colors": [
+      "Red"
+    ],
+    "fit": "Regular",
+    "material": "Mesh",
+    "occasions": [
+      "Casual",
+      "Sports"
+    ],
+    "attributes": {
+      "similar_group": "sneakers_running",
+      "decision_role": "mid"
+    }
+  },
+  {
+    "product_id": "P005",
+    "brand": "Adidas",
+    "name": "Galaxy 6 Running Shoes",
+    "gender": "Men",
+    "category": "Sneakers",
+    "subcategory": "Running",
+    "style": "Sport",
+    "price": 3999,
+    "mrp": 4999,
+    "discount": 20,
+    "rating": 4.5,
+    "rating_count": 1420,
+    "image_url": "https://images.unsplash.com/photo-1608231387042-66d1773070a5?w=400&h=500&fit=crop",
+    "product_url": "https://www.myntra.com/",
+    "sizes": [
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "colors": [
+      "White"
+    ],
+    "fit": "Regular",
+    "material": "Synthetic",
+    "occasions": [
+      "Casual",
+      "Sports"
+    ],
+    "attributes": {
+      "similar_group": "sneakers_running",
+      "decision_role": "best_reviewed"
+    }
+  },
+  {
+    "product_id": "P006",
+    "brand": "H&M",
+    "name": "Cotton Crew Neck T-Shirt",
+    "gender": "Men",
+    "category": "Tops",
+    "subcategory": "T-Shirts",
+    "style": "Basic",
+    "price": 599,
+    "mrp": 999,
+    "discount": 40,
+    "rating": 4.0,
+    "rating_count": 420,
+    "image_url": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=400&h=500&fit=crop",
+    "product_url": "https://www.myntra.com/",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "White"
+    ],
+    "fit": "Regular",
+    "material": "Cotton",
+    "occasions": [
+      "Casual",
+      "Office"
+    ],
+    "attributes": {
+      "similar_group": "tops_casual",
+      "decision_role": "cheap"
+    }
+  },
+  {
+    "product_id": "P007",
+    "brand": "WROGN",
+    "name": "Printed Slim Fit T-Shirt",
+    "gender": "Men",
+    "category": "Tops",
+    "subcategory": "T-Shirts",
+    "style": "Printed",
+    "price": 799,
+    "mrp": 1499,
+    "discount": 47,
+    "rating": 4.3,
+    "rating_count": 310,
+    "image_url": "https://images.unsplash.com/photo-1586363104862-3a5e2ab60d99?w=400&h=500&fit=crop",
+    "product_url": "https://www.myntra.com/",
+    "sizes": [
+      "S",
+      "M",
+      "L"
+    ],
+    "colors": [
+      "Navy"
+    ],
+    "fit": "Slim",
+    "material": "Cotton",
+    "occasions": [
+      "Casual",
+      "Office"
+    ],
+    "attributes": {
+      "similar_group": "tops_casual",
+      "decision_role": "mid"
+    }
+  },
+  {
+    "product_id": "P008",
+    "brand": "Levis",
+    "name": "511 Slim Fit Jeans",
+    "gender": "Men",
+    "category": "Jeans",
+    "subcategory": "Slim",
+    "style": "Denim",
+    "price": 2499,
+    "mrp": 3999,
+    "discount": 38,
+    "rating": 4.4,
+    "rating_count": 2100,
+    "image_url": "https://images.unsplash.com/photo-1542272604-787c3835535d?w=400&h=500&fit=crop",
+    "product_url": "https://www.myntra.com/",
+    "sizes": [
+      "30",
+      "32",
+      "34",
+      "36"
+    ],
+    "colors": [
+      "Blue"
+    ],
+    "fit": "Slim",
+    "material": "Denim",
+    "occasions": [
+      "Casual",
+      "Office"
+    ],
+    "attributes": {
+      "similar_group": "jeans_casual",
+      "decision_role": "best_reviewed"
+    }
+  },
+  {
+    "product_id": "P009",
+    "brand": "HIGHLANDER",
+    "name": "Tapered Fit Jeans",
+    "gender": "Men",
+    "category": "Jeans",
+    "subcategory": "Tapered",
+    "style": "Denim",
+    "price": 1199,
+    "mrp": 2299,
+    "discount": 48,
+    "rating": 4.1,
+    "rating_count": 780,
+    "image_url": "https://images.unsplash.com/photo-1624378439575-d8705ad7ae80?w=400&h=500&fit=crop",
+    "product_url": "https://www.myntra.com/",
+    "sizes": [
+      "30",
+      "32",
+      "34"
+    ],
+    "colors": [
+      "Black"
+    ],
+    "fit": "Tapered",
+    "material": "Denim",
+    "occasions": [
+      "Casual",
+      "Office"
+    ],
+    "attributes": {
+      "similar_group": "jeans_casual",
+      "decision_role": "cheap"
+    }
+  },
+  {
+    "product_id": "P010",
+    "brand": "Baggit",
+    "name": "Women Sling Bag",
+    "gender": "Women",
+    "category": "Handbags",
+    "subcategory": "Sling",
+    "style": "Casual",
+    "price": 899,
+    "mrp": 1999,
+    "discount": 55,
+    "rating": 4.2,
+    "rating_count": 540,
+    "image_url": "https://images.unsplash.com/photo-1590874103328-eac38a683ce7?w=400&h=500&fit=crop",
+    "product_url": "https://www.myntra.com/",
+    "sizes": [
+      "One Size"
+    ],
+    "colors": [
+      "Tan"
+    ],
+    "fit": "Regular",
+    "material": "Faux Leather",
+    "occasions": [
+      "Casual",
+      "Everyday"
+    ],
+    "attributes": {
+      "similar_group": "handbags_casual",
+      "decision_role": "cheap"
+    }
+  },
+  {
+    "product_id": "P011",
+    "brand": "Lavie",
+    "name": "Women Tote Handbag",
+    "gender": "Women",
+    "category": "Handbags",
+    "subcategory": "Tote",
+    "style": "Casual",
+    "price": 1499,
+    "mrp": 2999,
+    "discount": 50,
+    "rating": 4.6,
+    "rating_count": 920,
+    "image_url": "https://images.unsplash.com/photo-1548036328-c9fa89d128fa?w=400&h=500&fit=crop",
+    "product_url": "https://www.myntra.com/",
+    "sizes": [
+      "One Size"
+    ],
+    "colors": [
+      "Brown"
+    ],
+    "fit": "Regular",
+    "material": "Faux Leather",
+    "occasions": [
+      "Casual",
+      "Everyday"
+    ],
+    "attributes": {
+      "similar_group": "handbags_casual",
+      "decision_role": "best_reviewed"
+    }
+  },
+  {
+    "product_id": "P012",
+    "brand": "Puma",
+    "name": "Softride Pro Echo Sneakers",
+    "gender": "Women",
+    "category": "Sneakers",
+    "subcategory": "Lifestyle",
+    "style": "Sport",
+    "price": 3499,
+    "mrp": 4499,
+    "discount": 22,
+    "rating": 4.3,
+    "rating_count": 670,
+    "image_url": "https://images.unsplash.com/photo-1543163521-1bf539c55dd2?w=400&h=500&fit=crop",
+    "product_url": "https://www.myntra.com/",
+    "sizes": [
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    "colors": [
+      "Grey"
+    ],
+    "fit": "Regular",
+    "material": "Mesh",
+    "occasions": [
+      "Casual",
+      "Sports"
+    ],
+    "attributes": {
+      "similar_group": "sneakers_running",
+      "decision_role": "mid"
+    }
+  },
+  {
+    "product_id": "P013",
+    "brand": "Tokyo Talkies",
+    "name": "Women Ruffle Hem Casual Dress",
+    "gender": "Women",
+    "category": "Dresses",
+    "subcategory": "Casual Dresses",
+    "style": "Casual",
+    "price": 1099,
+    "mrp": 2199,
+    "discount": 50,
+    "rating": 4.0,
+    "rating_count": 890,
+    "image_url": "https://images.unsplash.com/photo-1539008835657-9e8e9680c956?w=400&h=500&fit=crop",
+    "product_url": "https://www.myntra.com/",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Black"
+    ],
+    "fit": "Regular",
+    "material": "Rayon",
+    "occasions": [
+      "Casual",
+      "Everyday"
+    ],
+    "attributes": {
+      "similar_group": "dresses_casual",
+      "decision_role": "mid"
+    }
+  },
+  {
+    "product_id": "P014",
+    "brand": "Sassafras",
+    "name": "Women Tiered Maxi Dress",
+    "gender": "Women",
+    "category": "Dresses",
+    "subcategory": "Casual Dresses",
+    "style": "Casual",
+    "price": 1199,
+    "mrp": 2399,
+    "discount": 50,
+    "rating": 4.3,
+    "rating_count": 1100,
+    "image_url": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?w=400&h=500&fit=crop",
+    "product_url": "https://www.myntra.com/",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Black"
+    ],
+    "fit": "Relaxed",
+    "material": "Cotton Blend",
+    "occasions": [
+      "Casual",
+      "Everyday"
+    ],
+    "attributes": {
+      "similar_group": "dresses_casual",
+      "decision_role": "mid"
+    }
+  },
+  {
+    "product_id": "P015",
+    "brand": "Reebok",
+    "name": "Floatride Energy Shoes",
+    "gender": "Men",
+    "category": "Sneakers",
+    "subcategory": "Running",
+    "style": "Casual",
+    "price": 4299,
+    "mrp": 5499,
+    "discount": 22,
+    "rating": 4.1,
+    "rating_count": 520,
+    "image_url": "https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?w=400&h=500&fit=crop",
+    "product_url": "https://www.myntra.com/",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Black"
+    ],
+    "fit": "Regular",
+    "material": "Mesh",
+    "occasions": [
+      "Casual",
+      "Sports"
+    ],
+    "attributes": {
+      "similar_group": "sneakers_running",
+      "decision_role": "cheap"
+    }
+  },
+  {
+    "product_id": "P016",
+    "brand": "Asics",
+    "name": "Gel-Contend 8 Running Shoes",
+    "gender": "Men",
+    "category": "Sneakers",
+    "subcategory": "Running",
+    "style": "Casual",
+    "price": 5499,
+    "mrp": 6499,
+    "discount": 15,
+    "rating": 4.6,
+    "rating_count": 980,
+    "image_url": "https://images.unsplash.com/photo-1608231387042-66d1773070a5?w=400&h=500&fit=crop",
+    "product_url": "https://www.myntra.com/",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Black"
+    ],
+    "fit": "Regular",
+    "material": "Synthetic",
+    "occasions": [
+      "Casual",
+      "Sports"
+    ],
+    "attributes": {
+      "similar_group": "sneakers_running",
+      "decision_role": "premium"
+    }
+  },
+  {
+    "product_id": "P017",
+    "brand": "Caprese",
+    "name": "Women Structured Satchel Bag",
+    "gender": "Women",
+    "category": "Handbags",
+    "subcategory": "Casual",
+    "style": "Casual",
+    "price": 1299,
+    "mrp": 2599,
+    "discount": 50,
+    "rating": 4.4,
+    "rating_count": 710,
+    "image_url": "https://images.unsplash.com/photo-1590874103328-eac38a683ce7?w=400&h=500&fit=crop",
+    "product_url": "https://www.myntra.com/",
+    "sizes": [
+      "One Size"
+    ],
+    "colors": [
+      "Black"
+    ],
+    "fit": "Regular",
+    "material": "PU Leather",
+    "occasions": [
+      "Casual",
+      "Everyday"
+    ],
+    "attributes": {
+      "similar_group": "handbags_casual",
+      "decision_role": "mid"
+    }
+  },
+  {
+    "product_id": "P018",
+    "brand": "DressBerry",
+    "name": "Women Mini Crossbody Bag",
+    "gender": "Women",
+    "category": "Handbags",
+    "subcategory": "Casual",
+    "style": "Casual",
+    "price": 699,
+    "mrp": 1499,
+    "discount": 53,
+    "rating": 3.9,
+    "rating_count": 380,
+    "image_url": "https://images.unsplash.com/photo-1590874103328-eac38a683ce7?w=400&h=500&fit=crop",
+    "product_url": "https://www.myntra.com/",
+    "sizes": [
+      "One Size"
+    ],
+    "colors": [
+      "Black"
+    ],
+    "fit": "Regular",
+    "material": "Faux Leather",
+    "occasions": [
+      "Casual",
+      "Everyday"
+    ],
+    "attributes": {
+      "similar_group": "handbags_casual",
+      "decision_role": "cheap"
+    }
+  },
+  {
+    "product_id": "P019",
+    "brand": "Hidesign",
+    "name": "Women Leather Shoulder Bag",
+    "gender": "Women",
+    "category": "Handbags",
+    "subcategory": "Casual",
+    "style": "Casual",
+    "price": 2499,
+    "mrp": 4499,
+    "discount": 44,
+    "rating": 4.7,
+    "rating_count": 430,
+    "image_url": "https://images.unsplash.com/photo-1548036328-c9fa89d128fa?w=400&h=500&fit=crop",
+    "product_url": "https://www.myntra.com/",
+    "sizes": [
+      "One Size"
+    ],
+    "colors": [
+      "Black"
+    ],
+    "fit": "Regular",
+    "material": "Leather",
+    "occasions": [
+      "Casual",
+      "Everyday"
+    ],
+    "attributes": {
+      "similar_group": "handbags_casual",
+      "decision_role": "premium"
+    }
+  },
+  {
+    "product_id": "P020",
+    "brand": "Roadster",
+    "name": "Men Striped Polo T-Shirt",
+    "gender": "Men",
+    "category": "Tops",
+    "subcategory": "T-Shirts",
+    "style": "Casual",
+    "price": 699,
+    "mrp": 1299,
+    "discount": 46,
+    "rating": 4.1,
+    "rating_count": 560,
+    "image_url": "https://images.unsplash.com/photo-1618354691373-d851c5c3a990?w=400&h=500&fit=crop",
+    "product_url": "https://www.myntra.com/",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Black"
+    ],
+    "fit": "Regular",
+    "material": "Cotton",
+    "occasions": [
+      "Casual",
+      "Office"
+    ],
+    "attributes": {
+      "similar_group": "tops_casual",
+      "decision_role": "mid"
+    }
+  },
+  {
+    "product_id": "P021",
+    "brand": "UCB",
+    "name": "Men Logo Print T-Shirt",
+    "gender": "Men",
+    "category": "Tops",
+    "subcategory": "T-Shirts",
+    "style": "Casual",
+    "price": 899,
+    "mrp": 1599,
+    "discount": 44,
+    "rating": 4.4,
+    "rating_count": 780,
+    "image_url": "https://images.unsplash.com/photo-1586363104862-3a5e2ab60d99?w=400&h=500&fit=crop",
+    "product_url": "https://www.myntra.com/",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Black"
+    ],
+    "fit": "Regular",
+    "material": "Cotton",
+    "occasions": [
+      "Casual",
+      "Office"
+    ],
+    "attributes": {
+      "similar_group": "tops_casual",
+      "decision_role": "best_reviewed"
+    }
+  },
+  {
+    "product_id": "P022",
+    "brand": "HIGHLANDER",
+    "name": "Men Oversized Graphic Tee",
+    "gender": "Men",
+    "category": "Tops",
+    "subcategory": "T-Shirts",
+    "style": "Casual",
+    "price": 549,
+    "mrp": 999,
+    "discount": 45,
+    "rating": 3.8,
+    "rating_count": 290,
+    "image_url": "https://images.unsplash.com/photo-1576566588028-4147f3842f27?w=400&h=500&fit=crop",
+    "product_url": "https://www.myntra.com/",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Black"
+    ],
+    "fit": "Oversized",
+    "material": "Cotton",
+    "occasions": [
+      "Casual",
+      "Office"
+    ],
+    "attributes": {
+      "similar_group": "tops_casual",
+      "decision_role": "cheap"
+    }
+  },
+  {
+    "product_id": "P023",
+    "brand": "Pepe Jeans",
+    "name": "Men Regular Fit Blue Jeans",
+    "gender": "Men",
+    "category": "Jeans",
+    "subcategory": "Casual",
+    "style": "Casual",
+    "price": 1799,
+    "mrp": 2999,
+    "discount": 40,
+    "rating": 4.2,
+    "rating_count": 940,
+    "image_url": "https://images.unsplash.com/photo-1542272604-787c3835535d?w=400&h=500&fit=crop",
+    "product_url": "https://www.myntra.com/",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Black"
+    ],
+    "fit": "Regular",
+    "material": "Denim",
+    "occasions": [
+      "Casual",
+      "Office"
+    ],
+    "attributes": {
+      "similar_group": "jeans_casual",
+      "decision_role": "mid"
+    }
+  },
+  {
+    "product_id": "P024",
+    "brand": "Wrangler",
+    "name": "Men Comfort Flex Jeans",
+    "gender": "Men",
+    "category": "Jeans",
+    "subcategory": "Casual",
+    "style": "Casual",
+    "price": 1999,
+    "mrp": 3299,
+    "discount": 39,
+    "rating": 4.3,
+    "rating_count": 650,
+    "image_url": "https://images.unsplash.com/photo-1541099649105-f69ad21f3246?w=400&h=500&fit=crop",
+    "product_url": "https://www.myntra.com/",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Black"
+    ],
+    "fit": "Regular",
+    "material": "Denim",
+    "occasions": [
+      "Casual",
+      "Office"
+    ],
+    "attributes": {
+      "similar_group": "jeans_casual",
+      "decision_role": "mid"
+    }
+  },
+  {
+    "product_id": "P025",
+    "brand": "Roadster",
+    "name": "Men Relaxed Fit Jeans",
+    "gender": "Men",
+    "category": "Jeans",
+    "subcategory": "Casual",
+    "style": "Casual",
+    "price": 1399,
+    "mrp": 2499,
+    "discount": 44,
+    "rating": 4.0,
+    "rating_count": 520,
+    "image_url": "https://images.unsplash.com/photo-1624378439575-d8705ad7ae80?w=400&h=500&fit=crop",
+    "product_url": "https://www.myntra.com/",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Black"
+    ],
+    "fit": "Relaxed",
+    "material": "Denim",
+    "occasions": [
+      "Casual",
+      "Office"
+    ],
+    "attributes": {
+      "similar_group": "jeans_casual",
+      "decision_role": "cheap"
+    }
+  },
+  {
+    "product_id": "P026",
+    "brand": "Manyavar",
+    "name": "Embroidered Kurta",
+    "gender": "Men",
+    "category": "Kurtas",
+    "subcategory": "Casual Kurtas",
+    "style": "Casual",
+    "price": 2499,
+    "mrp": 3999,
+    "discount": 38,
+    "rating": 4.3,
+    "rating_count": 680,
+    "image_url": "https://images.unsplash.com/photo-1617127365659-c47fa864d8bc?w=400&h=500&fit=crop",
+    "product_url": "https://www.myntra.com/",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Black"
+    ],
+    "fit": "Regular",
+    "material": "Mixed",
+    "occasions": [
+      "Casual",
+      "Festive",
+      "Office"
+    ],
+    "attributes": {}
+  },
+  {
+    "product_id": "P027",
+    "brand": "FabIndia",
+    "name": "Cotton Straight Kurta",
+    "gender": "Men",
+    "category": "Kurtas",
+    "subcategory": "Casual Kurtas",
+    "style": "Casual",
+    "price": 1899,
+    "mrp": 2999,
+    "discount": 37,
+    "rating": 4.5,
+    "rating_count": 920,
+    "image_url": "https://images.unsplash.com/photo-1617127365659-c47fa864d8bc?w=400&h=500&fit=crop",
+    "product_url": "https://www.myntra.com/",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Black"
+    ],
+    "fit": "Regular",
+    "material": "Mixed",
+    "occasions": [
+      "Casual",
+      "Festive",
+      "Office"
+    ],
+    "attributes": {}
+  },
+  {
+    "product_id": "P028",
+    "brand": "Biba",
+    "name": "Printed Anarkali Kurta",
+    "gender": "Women",
+    "category": "Kurtas",
+    "subcategory": "Anarkali",
+    "style": "Casual",
+    "price": 1599,
+    "mrp": 2799,
+    "discount": 43,
+    "rating": 4.2,
+    "rating_count": 1100,
+    "image_url": "https://images.unsplash.com/photo-1617127365659-c47fa864d8bc?w=400&h=500&fit=crop",
+    "product_url": "https://www.myntra.com/",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Black"
+    ],
+    "fit": "Regular",
+    "material": "Mixed",
+    "occasions": [
+      "Festive",
+      "Office"
+    ],
+    "attributes": {}
+  },
+  {
+    "product_id": "P029",
+    "brand": "Aurelia",
+    "name": "Floral Straight Kurta",
+    "gender": "Women",
+    "category": "Kurtas",
+    "subcategory": "Straight",
+    "style": "Casual",
+    "price": 999,
+    "mrp": 1799,
+    "discount": 44,
+    "rating": 4.0,
+    "rating_count": 540,
+    "image_url": "https://images.unsplash.com/photo-1617127365659-c47fa864d8bc?w=400&h=500&fit=crop",
+    "product_url": "https://www.myntra.com/",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Black"
+    ],
+    "fit": "Regular",
+    "material": "Mixed",
+    "occasions": [
+      "Casual",
+      "Festive",
+      "Office"
+    ],
+    "attributes": {}
+  },
+  {
+    "product_id": "P030",
+    "brand": "W",
+    "name": "Solid A-Line Kurta",
+    "gender": "Women",
+    "category": "Kurtas",
+    "subcategory": "A-Line",
+    "style": "Casual",
+    "price": 799,
+    "mrp": 1499,
+    "discount": 47,
+    "rating": 4.1,
+    "rating_count": 430,
+    "image_url": "https://images.unsplash.com/photo-1617127365659-c47fa864d8bc?w=400&h=500&fit=crop",
+    "product_url": "https://www.myntra.com/",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Black"
+    ],
+    "fit": "Regular",
+    "material": "Mixed",
+    "occasions": [
+      "Casual",
+      "Festive",
+      "Office"
+    ],
+    "attributes": {}
+  },
+  {
+    "product_id": "P031",
+    "brand": "Levis",
+    "name": "Trucker Denim Jacket",
+    "gender": "Men",
+    "category": "Jackets",
+    "subcategory": "Denim",
+    "style": "Casual",
+    "price": 3499,
+    "mrp": 4999,
+    "discount": 30,
+    "rating": 4.4,
+    "rating_count": 870,
+    "image_url": "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=400&h=500&fit=crop",
+    "product_url": "https://www.myntra.com/",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Black"
+    ],
+    "fit": "Regular",
+    "material": "Mixed",
+    "occasions": [
+      "Casual",
+      "Office"
+    ],
+    "attributes": {}
+  },
+  {
+    "product_id": "P032",
+    "brand": "Roadster",
+    "name": "Bomber Jacket",
+    "gender": "Men",
+    "category": "Jackets",
+    "subcategory": "Bomber",
+    "style": "Casual",
+    "price": 1999,
+    "mrp": 3499,
+    "discount": 43,
+    "rating": 4.1,
+    "rating_count": 620,
+    "image_url": "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=400&h=500&fit=crop",
+    "product_url": "https://www.myntra.com/",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Black"
+    ],
+    "fit": "Regular",
+    "material": "Mixed",
+    "occasions": [
+      "Casual",
+      "Office"
+    ],
+    "attributes": {}
+  },
+  {
+    "product_id": "P033",
+    "brand": "ONLY",
+    "name": "Faux Leather Biker Jacket",
+    "gender": "Women",
+    "category": "Jackets",
+    "subcategory": "Leather",
+    "style": "Casual",
+    "price": 2799,
+    "mrp": 4499,
+    "discount": 38,
+    "rating": 4.3,
+    "rating_count": 510,
+    "image_url": "https://images.unsplash.com/photo-1544022613-e87ca75a784a?w=400&h=500&fit=crop",
+    "product_url": "https://www.myntra.com/",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Black"
+    ],
+    "fit": "Regular",
+    "material": "Mixed",
+    "occasions": [
+      "Casual",
+      "Office"
+    ],
+    "attributes": {}
+  },
+  {
+    "product_id": "P034",
+    "brand": "H&M",
+    "name": "Lightweight Puffer Jacket",
+    "gender": "Women",
+    "category": "Jackets",
+    "subcategory": "Puffer",
+    "style": "Casual",
+    "price": 2299,
+    "mrp": 3999,
+    "discount": 43,
+    "rating": 4.2,
+    "rating_count": 780,
+    "image_url": "https://images.unsplash.com/photo-1594938298603-c8148c4dae35?w=400&h=500&fit=crop",
+    "product_url": "https://www.myntra.com/",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Black"
+    ],
+    "fit": "Regular",
+    "material": "Mixed",
+    "occasions": [
+      "Casual",
+      "Office"
+    ],
+    "attributes": {}
+  },
+  {
+    "product_id": "P035",
+    "brand": "Puma",
+    "name": "Running Windcheater",
+    "gender": "Men",
+    "category": "Jackets",
+    "subcategory": "Windcheater",
+    "style": "Casual",
+    "price": 2499,
+    "mrp": 3999,
+    "discount": 38,
+    "rating": 4.0,
+    "rating_count": 390,
+    "image_url": "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=400&h=500&fit=crop",
+    "product_url": "https://www.myntra.com/",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Black"
+    ],
+    "fit": "Regular",
+    "material": "Mixed",
+    "occasions": [
+      "Casual",
+      "Sports"
+    ],
+    "attributes": {}
+  },
+  {
+    "product_id": "P036",
+    "brand": "Fossil",
+    "name": "Chronograph Watch",
+    "gender": "Men",
+    "category": "Watches",
+    "subcategory": "Analog",
+    "style": "Casual",
+    "price": 8999,
+    "mrp": 12999,
+    "discount": 31,
+    "rating": 4.5,
+    "rating_count": 320,
+    "image_url": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=400&h=500&fit=crop",
+    "product_url": "https://www.myntra.com/",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Black"
+    ],
+    "fit": "Regular",
+    "material": "Mixed",
+    "occasions": [
+      "Casual",
+      "Office"
+    ],
+    "attributes": {}
+  },
+  {
+    "product_id": "P037",
+    "brand": "Titan",
+    "name": "Rose Gold Dial Watch",
+    "gender": "Women",
+    "category": "Watches",
+    "subcategory": "Analog",
+    "style": "Casual",
+    "price": 4999,
+    "mrp": 6999,
+    "discount": 29,
+    "rating": 4.4,
+    "rating_count": 560,
+    "image_url": "https://images.unsplash.com/photo-1524592094714-0f0654e20314?w=400&h=500&fit=crop",
+    "product_url": "https://www.myntra.com/",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Black"
+    ],
+    "fit": "Regular",
+    "material": "Mixed",
+    "occasions": [
+      "Casual",
+      "Office"
+    ],
+    "attributes": {}
+  },
+  {
+    "product_id": "P038",
+    "brand": "Noise",
+    "name": "ColorFit Smartwatch",
+    "gender": "Men",
+    "category": "Watches",
+    "subcategory": "Smart",
+    "style": "Casual",
+    "price": 2999,
+    "mrp": 4999,
+    "discount": 40,
+    "rating": 4.0,
+    "rating_count": 1200,
+    "image_url": "https://images.unsplash.com/photo-1434493789847-2f02dc6ca35d?w=400&h=500&fit=crop",
+    "product_url": "https://www.myntra.com/",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Black"
+    ],
+    "fit": "Regular",
+    "material": "Mixed",
+    "occasions": [
+      "Casual",
+      "Office"
+    ],
+    "attributes": {}
+  },
+  {
+    "product_id": "P039",
+    "brand": "Fastrack",
+    "name": "Minimalist Watch",
+    "gender": "Women",
+    "category": "Watches",
+    "subcategory": "Analog",
+    "style": "Casual",
+    "price": 1499,
+    "mrp": 2499,
+    "discount": 40,
+    "rating": 4.1,
+    "rating_count": 890,
+    "image_url": "https://images.unsplash.com/photo-1524592094714-0f0654e20314?w=400&h=500&fit=crop",
+    "product_url": "https://www.myntra.com/",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Black"
+    ],
+    "fit": "Regular",
+    "material": "Mixed",
+    "occasions": [
+      "Casual",
+      "Office"
+    ],
+    "attributes": {}
+  },
+  {
+    "product_id": "P040",
+    "brand": "Casio",
+    "name": "Classic Digital Watch",
+    "gender": "Unisex",
+    "category": "Watches",
+    "subcategory": "Digital",
+    "style": "Casual",
+    "price": 1999,
+    "mrp": 2999,
+    "discount": 33,
+    "rating": 4.6,
+    "rating_count": 2100,
+    "image_url": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=400&h=500&fit=crop",
+    "product_url": "https://www.myntra.com/",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Black"
+    ],
+    "fit": "Regular",
+    "material": "Mixed",
+    "occasions": [
+      "Casual",
+      "Office"
+    ],
+    "attributes": {}
+  },
+  {
+    "product_id": "P041",
+    "brand": "Roadster",
+    "name": "Cotton Chino Shorts",
+    "gender": "Men",
+    "category": "Shorts",
+    "subcategory": "Casual",
+    "style": "Casual",
+    "price": 699,
+    "mrp": 1299,
+    "discount": 46,
+    "rating": 4.0,
+    "rating_count": 340,
+    "image_url": "https://images.unsplash.com/photo-1591195853828-11db59a44f6b?w=400&h=500&fit=crop",
+    "product_url": "https://www.myntra.com/",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Black"
+    ],
+    "fit": "Regular",
+    "material": "Mixed",
+    "occasions": [
+      "Casual",
+      "Sports",
+      "Vacation"
+    ],
+    "attributes": {}
+  },
+  {
+    "product_id": "P042",
+    "brand": "Nike",
+    "name": "Dri-FIT Training Shorts",
+    "gender": "Men",
+    "category": "Shorts",
+    "subcategory": "Sports",
+    "style": "Casual",
+    "price": 1499,
+    "mrp": 2199,
+    "discount": 32,
+    "rating": 4.3,
+    "rating_count": 520,
+    "image_url": "https://images.unsplash.com/photo-1591195853828-11db59a44f6b?w=400&h=500&fit=crop",
+    "product_url": "https://www.myntra.com/",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Black"
+    ],
+    "fit": "Regular",
+    "material": "Mixed",
+    "occasions": [
+      "Casual",
+      "Sports",
+      "Vacation"
+    ],
+    "attributes": {}
+  },
+  {
+    "product_id": "P043",
+    "brand": "H&M",
+    "name": "High-Rise Denim Shorts",
+    "gender": "Women",
+    "category": "Shorts",
+    "subcategory": "Denim",
+    "style": "Casual",
+    "price": 999,
+    "mrp": 1799,
+    "discount": 44,
+    "rating": 4.1,
+    "rating_count": 410,
+    "image_url": "https://images.unsplash.com/photo-1594938298603-c8148c4dae35?w=400&h=500&fit=crop",
+    "product_url": "https://www.myntra.com/",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Black"
+    ],
+    "fit": "Regular",
+    "material": "Mixed",
+    "occasions": [
+      "Casual",
+      "Sports",
+      "Vacation"
+    ],
+    "attributes": {}
+  },
+  {
+    "product_id": "P044",
+    "brand": "Puma",
+    "name": "Training Shorts",
+    "gender": "Women",
+    "category": "Shorts",
+    "subcategory": "Active",
+    "style": "Casual",
+    "price": 899,
+    "mrp": 1499,
+    "discount": 40,
+    "rating": 4.0,
+    "rating_count": 280,
+    "image_url": "https://images.unsplash.com/photo-1591195853828-11db59a44f6b?w=400&h=500&fit=crop",
+    "product_url": "https://www.myntra.com/",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Black"
+    ],
+    "fit": "Regular",
+    "material": "Mixed",
+    "occasions": [
+      "Casual",
+      "Sports",
+      "Vacation"
+    ],
+    "attributes": {}
+  },
+  {
+    "product_id": "P045",
+    "brand": "Ray-Ban",
+    "name": "Classic Aviator",
+    "gender": "Unisex",
+    "category": "Sunglasses",
+    "subcategory": "Aviator",
+    "style": "Casual",
+    "price": 6999,
+    "mrp": 8999,
+    "discount": 22,
+    "rating": 4.7,
+    "rating_count": 450,
+    "image_url": "https://images.unsplash.com/photo-1577803645773-f96470509666?w=400&h=500&fit=crop",
+    "product_url": "https://www.myntra.com/",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Black"
+    ],
+    "fit": "Regular",
+    "material": "Mixed",
+    "occasions": [
+      "Casual",
+      "Vacation"
+    ],
+    "attributes": {}
+  },
+  {
+    "product_id": "P046",
+    "brand": "Vogue",
+    "name": "Cat Eye Sunglasses",
+    "gender": "Women",
+    "category": "Sunglasses",
+    "subcategory": "Cat Eye",
+    "style": "Casual",
+    "price": 4999,
+    "mrp": 6499,
+    "discount": 23,
+    "rating": 4.4,
+    "rating_count": 310,
+    "image_url": "https://images.unsplash.com/photo-1577803645773-f96470509666?w=400&h=500&fit=crop",
+    "product_url": "https://www.myntra.com/",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Black"
+    ],
+    "fit": "Regular",
+    "material": "Mixed",
+    "occasions": [
+      "Casual",
+      "Vacation"
+    ],
+    "attributes": {}
+  },
+  {
+    "product_id": "P047",
+    "brand": "Fastrack",
+    "name": "Wayfarer Sunglasses",
+    "gender": "Men",
+    "category": "Sunglasses",
+    "subcategory": "Wayfarer",
+    "style": "Casual",
+    "price": 999,
+    "mrp": 1799,
+    "discount": 44,
+    "rating": 4.2,
+    "rating_count": 680,
+    "image_url": "https://images.unsplash.com/photo-1577803645773-f96470509666?w=400&h=500&fit=crop",
+    "product_url": "https://www.myntra.com/",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Black"
+    ],
+    "fit": "Regular",
+    "material": "Mixed",
+    "occasions": [
+      "Casual",
+      "Vacation"
+    ],
+    "attributes": {}
+  },
+  {
+    "product_id": "P048",
+    "brand": "Lenskart",
+    "name": "Round Metal Frame",
+    "gender": "Unisex",
+    "category": "Sunglasses",
+    "subcategory": "Round",
+    "style": "Casual",
+    "price": 1499,
+    "mrp": 2499,
+    "discount": 40,
+    "rating": 4.0,
+    "rating_count": 920,
+    "image_url": "https://images.unsplash.com/photo-1577803645773-f96470509666?w=400&h=500&fit=crop",
+    "product_url": "https://www.myntra.com/",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Black"
+    ],
+    "fit": "Regular",
+    "material": "Mixed",
+    "occasions": [
+      "Casual",
+      "Vacation"
+    ],
+    "attributes": {}
+  },
+  {
+    "product_id": "P049",
+    "brand": "Nike",
+    "name": "One Tight Leggings",
+    "gender": "Women",
+    "category": "Activewear",
+    "subcategory": "Leggings",
+    "style": "Casual",
+    "price": 2999,
+    "mrp": 3999,
+    "discount": 25,
+    "rating": 4.4,
+    "rating_count": 760,
+    "image_url": "https://images.unsplash.com/photo-1506629082955-511b1aa562c8?w=400&h=500&fit=crop",
+    "product_url": "https://www.myntra.com/",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Black"
+    ],
+    "fit": "Regular",
+    "material": "Mixed",
+    "occasions": [
+      "Sports"
+    ],
+    "attributes": {}
+  },
+  {
+    "product_id": "P050",
+    "brand": "Adidas",
+    "name": "Essentials Track Pants",
+    "gender": "Men",
+    "category": "Activewear",
+    "subcategory": "Track Pants",
+    "style": "Casual",
+    "price": 2499,
+    "mrp": 3499,
+    "discount": 29,
+    "rating": 4.2,
+    "rating_count": 540,
+    "image_url": "https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?w=400&h=500&fit=crop",
+    "product_url": "https://www.myntra.com/",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Black"
+    ],
+    "fit": "Regular",
+    "material": "Mixed",
+    "occasions": [
+      "Sports"
+    ],
+    "attributes": {}
+  },
+  {
+    "product_id": "P051",
+    "brand": "Puma",
+    "name": "Medium Support Sports Bra",
+    "gender": "Women",
+    "category": "Activewear",
+    "subcategory": "Sports Bra",
+    "style": "Casual",
+    "price": 1299,
+    "mrp": 1999,
+    "discount": 35,
+    "rating": 4.1,
+    "rating_count": 430,
+    "image_url": "https://images.unsplash.com/photo-1518611012118-696072aa579a?w=400&h=500&fit=crop",
+    "product_url": "https://www.myntra.com/",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Black"
+    ],
+    "fit": "Regular",
+    "material": "Mixed",
+    "occasions": [
+      "Sports"
+    ],
+    "attributes": {}
+  },
+  {
+    "product_id": "P052",
+    "brand": "Decathlon",
+    "name": "Dry Fit Running Tee",
+    "gender": "Men",
+    "category": "Activewear",
+    "subcategory": "T-Shirt",
+    "style": "Casual",
+    "price": 599,
+    "mrp": 999,
+    "discount": 40,
+    "rating": 4.0,
+    "rating_count": 890,
+    "image_url": "https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?w=400&h=500&fit=crop",
+    "product_url": "https://www.myntra.com/",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Black"
+    ],
+    "fit": "Regular",
+    "material": "Mixed",
+    "occasions": [
+      "Casual",
+      "Sports"
+    ],
+    "attributes": {}
+  },
+  {
+    "product_id": "P053",
+    "brand": "HRX",
+    "name": "Racerback Tank Top",
+    "gender": "Women",
+    "category": "Activewear",
+    "subcategory": "Tank",
+    "style": "Casual",
+    "price": 499,
+    "mrp": 899,
+    "discount": 44,
+    "rating": 3.9,
+    "rating_count": 320,
+    "image_url": "https://images.unsplash.com/photo-1518611012118-696072aa579a?w=400&h=500&fit=crop",
+    "product_url": "https://www.myntra.com/",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Black"
+    ],
+    "fit": "Regular",
+    "material": "Mixed",
+    "occasions": [
+      "Sports"
+    ],
+    "attributes": {}
+  },
+  {
+    "product_id": "P054",
+    "brand": "Puma",
+    "name": "Leadcat Slide Sandals",
+    "gender": "Men",
+    "category": "Sandals",
+    "subcategory": "Sports",
+    "style": "Casual",
+    "price": 1499,
+    "mrp": 1999,
+    "discount": 25,
+    "rating": 4.2,
+    "rating_count": 670,
+    "image_url": "https://images.unsplash.com/photo-1603487742131-4160ec999306?w=400&h=500&fit=crop",
+    "product_url": "https://www.myntra.com/",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Black"
+    ],
+    "fit": "Regular",
+    "material": "Mixed",
+    "occasions": [
+      "Casual",
+      "Sports"
+    ],
+    "attributes": {}
+  },
+  {
+    "product_id": "P055",
+    "brand": "Metro",
+    "name": "Embellished Flat Sandals",
+    "gender": "Women",
+    "category": "Sandals",
+    "subcategory": "Flat",
+    "style": "Casual",
+    "price": 999,
+    "mrp": 1799,
+    "discount": 44,
+    "rating": 4.0,
+    "rating_count": 510,
+    "image_url": "https://images.unsplash.com/photo-1543163521-1bf539c55dd2?w=400&h=500&fit=crop",
+    "product_url": "https://www.myntra.com/",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Black"
+    ],
+    "fit": "Regular",
+    "material": "Mixed",
+    "occasions": [
+      "Festive",
+      "Party"
+    ],
+    "attributes": {}
+  },
+  {
+    "product_id": "P056",
+    "brand": "Woodland",
+    "name": "Outdoor Sandals",
+    "gender": "Men",
+    "category": "Sandals",
+    "subcategory": "Casual",
+    "style": "Casual",
+    "price": 1999,
+    "mrp": 2999,
+    "discount": 33,
+    "rating": 4.1,
+    "rating_count": 380,
+    "image_url": "https://images.unsplash.com/photo-1603487742131-4160ec999306?w=400&h=500&fit=crop",
+    "product_url": "https://www.myntra.com/",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Black"
+    ],
+    "fit": "Regular",
+    "material": "Mixed",
+    "occasions": [
+      "Casual",
+      "Office"
+    ],
+    "attributes": {}
+  },
+  {
+    "product_id": "P057",
+    "brand": "Aldo",
+    "name": "Block Heel Sandals",
+    "gender": "Women",
+    "category": "Sandals",
+    "subcategory": "Heel",
+    "style": "Casual",
+    "price": 2499,
+    "mrp": 3999,
+    "discount": 38,
+    "rating": 4.3,
+    "rating_count": 290,
+    "image_url": "https://images.unsplash.com/photo-1543163521-1bf539c55dd2?w=400&h=500&fit=crop",
+    "product_url": "https://www.myntra.com/",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Black"
+    ],
+    "fit": "Regular",
+    "material": "Mixed",
+    "occasions": [
+      "Festive",
+      "Party"
+    ],
+    "attributes": {}
+  },
+  {
+    "product_id": "P058",
+    "brand": "Vero Moda",
+    "name": "Sequin Party Dress",
+    "gender": "Women",
+    "category": "Dresses",
+    "subcategory": "Party",
+    "style": "Casual",
+    "price": 2799,
+    "mrp": 4499,
+    "discount": 38,
+    "rating": 4.4,
+    "rating_count": 620,
+    "image_url": "https://images.unsplash.com/photo-1585487000160-6ebcfceb0d03?w=400&h=500&fit=crop",
+    "product_url": "https://www.myntra.com/",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Black"
+    ],
+    "fit": "Regular",
+    "material": "Mixed",
+    "occasions": [
+      "Festive",
+      "Party"
+    ],
+    "attributes": {}
+  },
+  {
+    "product_id": "P059",
+    "brand": "Marks & Spencer",
+    "name": "Sheath Formal Dress",
+    "gender": "Women",
+    "category": "Dresses",
+    "subcategory": "Formal",
+    "style": "Casual",
+    "price": 3199,
+    "mrp": 4999,
+    "discount": 36,
+    "rating": 4.5,
+    "rating_count": 480,
+    "image_url": "https://images.unsplash.com/photo-1594938298603-c8148c4dae35?w=400&h=500&fit=crop",
+    "product_url": "https://www.myntra.com/",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Black"
+    ],
+    "fit": "Regular",
+    "material": "Mixed",
+    "occasions": [
+      "Office"
+    ],
+    "attributes": {}
+  },
+  {
+    "product_id": "P060",
+    "brand": "New Balance",
+    "name": "327 Lifestyle Sneakers",
+    "gender": "Women",
+    "category": "Sneakers",
+    "subcategory": "Lifestyle",
+    "style": "Casual",
+    "price": 6999,
+    "mrp": 8999,
+    "discount": 22,
+    "rating": 4.5,
+    "rating_count": 540,
+    "image_url": "https://images.unsplash.com/photo-1608231387042-66d1773070a5?w=400&h=500&fit=crop",
+    "product_url": "https://www.myntra.com/",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Black"
+    ],
+    "fit": "Regular",
+    "material": "Mixed",
+    "occasions": [
+      "Casual",
+      "Sports"
+    ],
+    "attributes": {}
+  },
+  {
+    "product_id": "P061",
+    "brand": "AND",
+    "name": "Puff Sleeve Blouse",
+    "gender": "Women",
+    "category": "Tops",
+    "subcategory": "Blouses",
+    "style": "Casual",
+    "price": 1299,
+    "mrp": 2199,
+    "discount": 41,
+    "rating": 4.2,
+    "rating_count": 390,
+    "image_url": "https://images.unsplash.com/photo-1618354691373-d851c5c3a990?w=400&h=500&fit=crop",
+    "product_url": "https://www.myntra.com/",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Black"
+    ],
+    "fit": "Regular",
+    "material": "Mixed",
+    "occasions": [
+      "Casual",
+      "Office"
+    ],
+    "attributes": {}
+  },
+  {
+    "product_id": "P062",
+    "brand": "ONLY",
+    "name": "High-Rise Skinny Jeans",
+    "gender": "Women",
+    "category": "Jeans",
+    "subcategory": "Skinny",
+    "style": "Casual",
+    "price": 1899,
+    "mrp": 2999,
+    "discount": 37,
+    "rating": 4.3,
+    "rating_count": 710,
+    "image_url": "https://images.unsplash.com/photo-1541099649105-f69ad21f3246?w=400&h=500&fit=crop",
+    "product_url": "https://www.myntra.com/",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Black"
+    ],
+    "fit": "Regular",
+    "material": "Mixed",
+    "occasions": [
+      "Casual",
+      "Office"
+    ],
+    "attributes": {}
+  }
+]
