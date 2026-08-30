@@ -1,5 +1,16 @@
-const API = import.meta.env.VITE_API_URL || "";
+const API = (import.meta.env.VITE_API_URL || "").replace(/\/$/, "");
 const USER_ID = "U001";
+
+function apiReachabilityHint() {
+  if (!API) {
+    return "Start the backend: uvicorn backend.main:app --reload --host 127.0.0.1 --port 8002";
+  }
+  return [
+    "Check: (1) VITE_API_URL on Vercel matches your Railway domain (no trailing slash),",
+    "(2) Railway CORS_ORIGINS includes this site's URL,",
+    "(3) your network resolves *.up.railway.app (try Google DNS 8.8.8.8 if needed).",
+  ].join(" ");
+}
 
 async function request(path, options = {}) {
   let res;
@@ -13,9 +24,7 @@ async function request(path, options = {}) {
       },
     });
   } catch {
-    throw new Error(
-      `Cannot reach API${API ? ` at ${API}` : ""}. Start the backend: uvicorn backend.main:app --reload --host 127.0.0.1 --port 8002`
-    );
+    throw new Error(`Cannot reach API at ${API || "same origin"}. ${apiReachabilityHint()}`);
   }
   if (res.status === 204) return null;
   const data = await res.json().catch(() => ({}));
