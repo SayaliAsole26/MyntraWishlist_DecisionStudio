@@ -1534,6 +1534,16 @@ legend {
   max-width: 480px;
 }
 
+.overload-header {
+  text-align: center;
+}
+
+.overload-illustration {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 8px;
+}
+
 .overload-copy {
   font-size: 16px;
   line-height: 1.5;

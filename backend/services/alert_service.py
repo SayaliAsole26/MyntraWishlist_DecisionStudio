@@ -1,5 +1,6 @@
 """Smart alerts — price drop, similar product, decision overload."""
 
+import json
 import sqlite3
 
 from backend.db.repositories import alerts as alerts_repo
@@ -126,11 +127,25 @@ def sync_overload_alerts(conn: sqlite3.Connection, user_id: str) -> list[Overloa
     active: list[OverloadOut] = []
     for group in groups:
         existing = alerts_repo.get_overload_alert_for_group(conn, user_id, group["group_key"])
-        if existing and existing["dismissed_at"]:
-            continue
-
         alert_id: str | None = existing["alert_id"] if existing else None
-        if not existing:
+
+        if existing and existing["dismissed_at"]:
+            # Re-show if the cluster grew after dismiss (new similar saves).
+            try:
+                prev = json.loads(existing["payload_json"] or "{}")
+            except json.JSONDecodeError:
+                prev = {}
+            prev_count = int(prev.get("count") or 0) if isinstance(prev, dict) else 0
+            if group["count"] <= prev_count:
+                continue
+            alert_id = alerts_repo.insert_alert(
+                conn,
+                user_id,
+                "DECISION_OVERLOAD",
+                None,
+                group,
+            )
+        elif not existing:
             alert_id = alerts_repo.insert_alert(
                 conn,
                 user_id,

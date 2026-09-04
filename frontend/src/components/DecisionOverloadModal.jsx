@@ -6,6 +6,22 @@ function groupTitle(group) {
   return label.charAt(0).toUpperCase() + label.slice(1);
 }
 
+function OverloadIllustration() {
+  return (
+    <div className="overload-illustration" aria-hidden="true">
+      <svg viewBox="0 0 160 100" width="160" height="100" fill="none">
+        <rect x="48" y="42" width="64" height="40" rx="4" stroke="#282C3F" strokeWidth="2.5" />
+        <path d="M48 50h64" stroke="#282C3F" strokeWidth="2.5" />
+        <path d="M68 42V34h24v8" stroke="#282C3F" strokeWidth="2.5" />
+        <rect x="58" y="28" width="18" height="22" rx="2" stroke="#282C3F" strokeWidth="2" />
+        <rect x="72" y="22" width="18" height="26" rx="2" stroke="#282C3F" strokeWidth="2" />
+        <rect x="86" y="30" width="16" height="20" rx="2" stroke="#282C3F" strokeWidth="2" />
+        <path d="M40 36l4-4M120 36l-4-4M36 58h8M116 58h8" stroke="#282C3F" strokeWidth="2" strokeLinecap="round" />
+      </svg>
+    </div>
+  );
+}
+
 export default function DecisionOverloadModal({ overloads = [], onCompare, onDismiss }) {
   const [selectedKey, setSelectedKey] = useState(null);
 
@@ -26,7 +42,8 @@ export default function DecisionOverloadModal({ overloads = [], onCompare, onDis
   return (
     <div className="sheet-backdrop overload-backdrop" role="presentation">
       <div className="sheet overload-sheet sheet-enter" role="dialog" aria-label="Decision overload">
-        <div className="sheet-header">
+        <div className="sheet-header overload-header">
+          <OverloadIllustration />
           <h2>Too many similar saves?</h2>
         </div>
         <div className="sheet-body">

@@ -373,9 +373,9 @@ export default function Wishlist() {
         ))
       )}
 
-      {overloads.filter((o) => o.count > 5).length > 0 ? (
+      {overloads.length > 0 ? (
         <DecisionOverloadModal
-          overloads={overloads.filter((o) => o.count > 5)}
+          overloads={overloads}
           onCompare={(ids, alertId, groupKey) => narrowDown(ids, alertId, groupKey)}
           onDismiss={dismissAlert}
         />

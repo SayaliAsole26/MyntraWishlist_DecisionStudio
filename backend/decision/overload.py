@@ -2,32 +2,35 @@
 
 import sqlite3
 
-OVERLOAD_THRESHOLD = 6
+# Trigger after a few similar saves so the wishlist popup feels useful in demos.
+OVERLOAD_THRESHOLD = 3
 SIMILARITY_EDGE_THRESHOLD = 0.45
 
 
 def _group_label(category: str | None, subcategory: str | None) -> str:
     cat = (category or "items").lower()
-    if subcategory:
-        sub = subcategory.lower()
-        if "dress" in sub or cat == "dresses":
-            return "dresses"
-        if "sneaker" in sub or "shoe" in sub:
-            return "sneakers"
-        if "bag" in sub or "handbag" in sub:
-            return "handbags"
-        if "jean" in sub:
-            return "jeans"
-        if "top" in sub:
-            return "tops"
+    sub = (subcategory or "").lower()
+    if "dress" in sub or cat in ("dress", "dresses"):
+        return "dresses"
+    if "sneaker" in sub or "shoe" in sub or cat in ("sneakers", "shoes"):
+        return "sneakers"
+    if "sandal" in cat or "sandal" in sub:
+        return "sandals"
+    if "bag" in sub or "handbag" in sub or cat in ("bags", "handbags"):
+        return "handbags"
+    if "jean" in sub or cat == "jeans":
+        return "jeans"
+    if "top" in sub or cat in ("tops", "top"):
+        return "tops"
     return cat
 
 
 def _category_groups(products: list[dict]) -> dict[str, list[str]]:
+    """Group by soft category label so similar styles still cluster across subcategories."""
     groups: dict[str, list[str]] = {}
     for p in products:
-        key = f"{p.get('category') or ''}|{p.get('subcategory') or ''}"
-        groups.setdefault(key, []).append(p["product_id"])
+        label = _group_label(p.get("category"), p.get("subcategory"))
+        groups.setdefault(label, []).append(p["product_id"])
     return groups
 
 
@@ -93,21 +96,19 @@ def detect_overload_groups(
     seen_keys: set[str] = set()
     groups: list[dict] = []
 
-    for key, pids in _category_groups(products).items():
+    for label, pids in _category_groups(products).items():
         if len(pids) < threshold:
             continue
-        category, subcategory = key.split("|", 1) if "|" in key else (key, "")
         sample = next(p for p in products if p["product_id"] in pids)
-        label = _group_label(sample.get("category"), sample.get("subcategory"))
-        group_key = f"cat:{key}"
+        group_key = f"cat:{label}"
         if group_key in seen_keys:
             continue
         seen_keys.add(group_key)
         groups.append(
             {
                 "group_key": group_key,
-                "category": category or None,
-                "subcategory": subcategory or None,
+                "category": sample.get("category"),
+                "subcategory": sample.get("subcategory"),
                 "count": len(pids),
                 "product_ids": sorted(pids),
                 "label": label,

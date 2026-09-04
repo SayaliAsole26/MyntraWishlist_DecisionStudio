@@ -92,8 +92,8 @@ def test_dismiss_alert_persists(client):
     assert remaining == []
 
 
-def test_overload_at_six_dresses(client):
-    for pid in ("P001", "P002", "P003", "P013", "P014", "P058"):
+def test_overload_at_three_dresses(client):
+    for pid in ("P001", "P002", "P003"):
         client.post("/api/wishlist", json={"product_id": pid})
 
     res = client.get("/api/wishlist")
@@ -101,13 +101,13 @@ def test_overload_at_six_dresses(client):
     overload = res.json()["overload"]
     assert len(overload) >= 1
     group = overload[0]
-    assert group["count"] >= 6
-    assert len(group["product_ids"]) >= 6
+    assert group["count"] >= 3
+    assert len(group["product_ids"]) >= 3
     assert "dress" in group["label"]
 
 
-def test_overload_not_triggered_at_five(client):
-    for pid in ("P001", "P002", "P003", "P013", "P014"):
+def test_overload_not_triggered_at_two(client):
+    for pid in ("P001", "P002"):
         client.post("/api/wishlist", json={"product_id": pid})
 
     res = client.get("/api/wishlist")
@@ -116,7 +116,7 @@ def test_overload_not_triggered_at_five(client):
 
 
 def test_overload_dismiss_persists(client):
-    for pid in ("P001", "P002", "P003", "P013", "P014", "P058"):
+    for pid in ("P001", "P002", "P003"):
         client.post("/api/wishlist", json={"product_id": pid})
 
     res = client.get("/api/wishlist")
