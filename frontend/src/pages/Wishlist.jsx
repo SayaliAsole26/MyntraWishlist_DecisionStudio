@@ -206,9 +206,14 @@ export default function Wishlist() {
           : "Compare ready for your top picks"
       );
 
+      // Best-effort only — never surface dismiss failures over a successful compare.
       if (alertId) {
-        await api.dismissAlert(alertId);
-        setAlerts((prev) => prev.filter((a) => a.alert_id !== alertId));
+        try {
+          await api.dismissAlert(alertId);
+          setAlerts((prev) => prev.filter((a) => a.alert_id !== alertId));
+        } catch {
+          /* already dismissed or missing — ignore */
+        }
       }
     } catch (err) {
       setCompareError(err.message);
