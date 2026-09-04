@@ -9,23 +9,35 @@ SCHEMA_PATH = Path(__file__).parent / "schema.sql"
 
 
 def _ensure_derived_stats(conn) -> None:
-    stats_count = conn.execute("SELECT COUNT(*) FROM price_stats").fetchone()[0]
     sim_count = conn.execute("SELECT COUNT(*) FROM product_similarity").fetchone()[0]
-    insights_count = conn.execute("SELECT COUNT(*) FROM review_insights").fetchone()[0]
     product_count = conn.execute("SELECT COUNT(*) FROM products").fetchone()[0]
-    review_count = conn.execute("SELECT COUNT(*) FROM reviews").fetchone()[0]
 
     if product_count == 0:
         return
-    if stats_count == 0:
-        from offline.rebuild_price_stats import rebuild_price_stats
 
-        rebuild_price_stats(conn)
+    # Cover products that were never in the seed evidence files (e.g. sandals/kurtas).
+    from offline.backfill_evidence import backfill_evidence
+
+    backfill_evidence(conn)
+
+    from offline.rebuild_price_stats import rebuild_price_stats
+
+    rebuild_price_stats(conn)
+
     if sim_count == 0:
         from offline.rebuild_similarity import rebuild_similarity
 
         rebuild_similarity(conn)
-    if insights_count == 0 and review_count > 0:
+
+    # Rebuild themes for any product that has reviews but no insights yet.
+    missing_insight = conn.execute(
+        """
+        SELECT COUNT(*) FROM products p
+        WHERE EXISTS (SELECT 1 FROM reviews r WHERE r.product_id = p.product_id)
+          AND NOT EXISTS (SELECT 1 FROM review_insights i WHERE i.product_id = p.product_id)
+        """
+    ).fetchone()[0]
+    if missing_insight > 0:
         from offline.rebuild_insights import rebuild_insights
 
         rebuild_insights(conn, use_groq=False)
