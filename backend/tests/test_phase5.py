@@ -115,7 +115,7 @@ def test_overload_not_triggered_at_two(client):
     assert dress_overload == []
 
 
-def test_overload_dismiss_persists(client):
+def test_overload_returns_after_dismiss(client):
     for pid in ("P001", "P002", "P003"):
         client.post("/api/wishlist", json={"product_id": pid})
 
@@ -127,7 +127,7 @@ def test_overload_dismiss_persists(client):
 
     client.patch(f"/api/alerts/{alert_id}/dismiss")
     res2 = client.get("/api/wishlist")
-    assert res2.json()["overload"] == []
+    assert len(res2.json()["overload"]) >= 1
 
 
 def test_similar_product_alert_has_reason(client):

@@ -1,6 +1,5 @@
 """Smart alerts — price drop, similar product, decision overload."""
 
-import json
 import sqlite3
 
 from backend.db.repositories import alerts as alerts_repo
@@ -119,7 +118,7 @@ def ensure_similar_alerts(conn: sqlite3.Connection, user_id: str) -> int:
 
 
 def sync_overload_alerts(conn: sqlite3.Connection, user_id: str) -> list[OverloadOut]:
-    """Detect overload groups and return active (non-dismissed) signals."""
+    """Detect overload groups and return them on every wishlist visit."""
     items = wishlist_repo.list_wishlist(conn, user_id)
     products = products_from_wishlist_items(items)
     groups = detect_overload_groups(conn, products, threshold=OVERLOAD_THRESHOLD)
@@ -127,25 +126,9 @@ def sync_overload_alerts(conn: sqlite3.Connection, user_id: str) -> list[Overloa
     active: list[OverloadOut] = []
     for group in groups:
         existing = alerts_repo.get_overload_alert_for_group(conn, user_id, group["group_key"])
-        alert_id: str | None = existing["alert_id"] if existing else None
-
-        if existing and existing["dismissed_at"]:
-            # Re-show if the cluster grew after dismiss (new similar saves).
-            try:
-                prev = json.loads(existing["payload_json"] or "{}")
-            except json.JSONDecodeError:
-                prev = {}
-            prev_count = int(prev.get("count") or 0) if isinstance(prev, dict) else 0
-            if group["count"] <= prev_count:
-                continue
-            alert_id = alerts_repo.insert_alert(
-                conn,
-                user_id,
-                "DECISION_OVERLOAD",
-                None,
-                group,
-            )
-        elif not existing:
+        if existing:
+            alert_id = existing["alert_id"]
+        else:
             alert_id = alerts_repo.insert_alert(
                 conn,
                 user_id,
@@ -154,6 +137,7 @@ def sync_overload_alerts(conn: sqlite3.Connection, user_id: str) -> list[Overloa
                 group,
             )
 
+        # Always include — frontend may hide for this visit only.
         active.append(
             OverloadOut(
                 alert_id=alert_id,

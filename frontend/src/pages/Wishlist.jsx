@@ -48,6 +48,7 @@ export default function Wishlist() {
   const [items, setItems] = useState([]);
   const [alerts, setAlerts] = useState([]);
   const [overloads, setOverloads] = useState([]);
+  const [overloadClosed, setOverloadClosed] = useState(false);
   const [error, setError] = useState("");
   const [loading, setLoading] = useState(true);
   const [selected, setSelected] = useState([]);
@@ -128,10 +129,14 @@ export default function Wishlist() {
     try {
       await api.dismissAlert(alertId);
       setAlerts((prev) => prev.filter((a) => a.alert_id !== alertId));
-      setOverloads((prev) => prev.filter((o) => o.alert_id !== alertId));
     } catch (err) {
       setError(err.message);
     }
+  };
+
+  const dismissOverload = () => {
+    // Hide for this visit only — popup returns on the next wishlist visit.
+    setOverloadClosed(true);
   };
 
   const viewItem = (productId) => {
@@ -373,11 +378,11 @@ export default function Wishlist() {
         ))
       )}
 
-      {overloads.length > 0 ? (
+      {overloads.length > 0 && !overloadClosed ? (
         <DecisionOverloadModal
           overloads={overloads}
           onCompare={(ids, alertId, groupKey) => narrowDown(ids, alertId, groupKey)}
-          onDismiss={dismissAlert}
+          onDismiss={dismissOverload}
         />
       ) : null}
 
