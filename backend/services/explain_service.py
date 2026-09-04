@@ -176,12 +176,23 @@ def _fallback_answer(pack: dict[str, Any], base: dict[str, Any]) -> dict[str, An
     products = pack.get("products") or []
     labels = pack.get("labels") or {}
     missing = pack.get("missing") or []
+    reviews = pack.get("reviews") or {}
+    prices = pack.get("price") or []
 
     by_id = {p["product_id"]: p for p in products}
 
     def pname(pid: str) -> str:
         p = by_id.get(pid, {})
         return f"{p.get('brand', '')} {p.get('name', '')}".strip() or pid
+
+    def themes_for(pid: str) -> list[dict]:
+        return reviews.get(pid) or []
+
+    def theme_summary(pid: str, names: set[str]) -> str | None:
+        for t in themes_for(pid):
+            if t.get("theme") in names and t.get("summary"):
+                return str(t["summary"])
+        return None
 
     facts = []
     for p in products:
@@ -195,6 +206,7 @@ def _fallback_answer(pack: dict[str, Any], base: dict[str, Any]) -> dict[str, An
 
     reviewed = labels.get("best_reviewed")
     value = labels.get("best_value")
+    primary = products[0]["product_id"] if products else None
 
     if q == "WHICH_ONE_SHOULD_I_BUY" and best:
         interpretation = (
@@ -219,32 +231,133 @@ def _fallback_answer(pack: dict[str, Any], base: dict[str, Any]) -> dict[str, An
             f"{pname(best)} balances price and quality best in this comparison."
         )
         recommendation = interpretation
-    elif q == "WORTH_THE_PRICE":
+    elif q == "WHY_BETTER_THAN_B" and len(products) >= 2:
+        a, b = products[0]["product_id"], products[1]["product_id"]
+        pick = best or a
+        other = b if pick == a else a
         interpretation = (
-            "Use the price and review panels with the comparison table to judge value. "
-            "Current list prices and ratings are shown in Facts."
+            f"{pname(pick)} edges out {pname(other)} on the combined price and rating balance."
         )
         recommendation = interpretation
-    elif q == "SHOULD_I_WAIT":
-        if "price_history" in missing:
+    elif q == "WORTH_THE_PRICE" and primary:
+        tip = theme_summary(primary, {"VALUE", "QUALITY"}) or ""
+        price_row = next((x for x in prices if x.get("product_id") == primary), {})
+        pos = price_row.get("relative_position")
+        price_note = (
+            "Current price sits near the low end of its recent range."
+            if isinstance(pos, (int, float)) and pos <= 0.35
+            else "Current price is within its recent range."
+            if isinstance(pos, (int, float))
+            else "Current list price and rating are available to judge value."
+        )
+        interpretation = f"{price_note} {tip}".strip()
+        recommendation = (
+            f"{pname(primary)} looks reasonable at ₹{by_id[primary].get('price')} "
+            f"given its {by_id[primary].get('rating')} rating."
+        )
+    elif q == "WHAT_BUYERS_DISLIKE" and primary:
+        negatives = [
+            t for t in themes_for(primary) if (t.get("negative") or 0) > 0
+        ]
+        if negatives:
+            top = max(negatives, key=lambda t: t.get("negative") or 0)
             interpretation = (
-                "Recent price history isn’t available yet, so a wait-vs-buy call isn’t reliable. "
-                "Compare current prices and ratings instead."
+                top.get("summary")
+                or f"Buyers most often mention concerns around {str(top.get('theme')).title()}."
+            )
+            facts.extend(
+                f"{str(t.get('theme')).title()}: {t.get('negative')} critical mentions"
+                for t in negatives[:3]
+            )
+        else:
+            interpretation = "No strong dislike themes stand out in the available buyer feedback."
+        recommendation = interpretation
+    elif q in ("IS_FIT_RELIABLE", "RUNS_TRUE_TO_SIZE") and primary:
+        tip = theme_summary(primary, {"FIT", "SIZE"}) or "Fit feedback is available from buyers."
+        fit_attr = by_id[primary].get("fit")
+        interpretation = tip
+        recommendation = (
+            f"Listed fit is {fit_attr}. {tip}" if fit_attr else tip
+        )
+    elif q == "FABRIC_QUALITY" and primary:
+        tip = theme_summary(primary, {"FABRIC", "QUALITY", "COMFORT"}) or (
+            f"Material listed as {by_id[primary].get('material') or 'not specified'}."
+        )
+        interpretation = tip
+        recommendation = tip
+    elif q == "SHOULD_I_WAIT" and primary:
+        price_row = next((x for x in prices if x.get("product_id") == primary), {})
+        if price_row.get("history_available"):
+            pos = price_row.get("relative_position")
+            if isinstance(pos, (int, float)) and pos <= 0.3:
+                interpretation = (
+                    "Price is already near the lower end of its recent range — waiting may not help much."
+                )
+            elif isinstance(pos, (int, float)) and pos >= 0.7:
+                interpretation = (
+                    "Price is toward the higher end of its recent range — a short wait could help if deals matter."
+                )
+            else:
+                interpretation = (
+                    "Price is mid-range historically — buy if you like the product; otherwise watch for a small dip."
+                )
+        else:
+            interpretation = (
+                "Compare current price and rating now; historical movement isn’t the deciding factor alone."
+            )
+        recommendation = interpretation
+    elif q in ("GOOD_FOR_DAILY_WEAR", "COMFORT_LEVEL") and primary:
+        tip = theme_summary(primary, {"COMFORT", "FIT", "OCCASION"}) or (
+            "Buyers generally comment on everyday comfort."
+        )
+        occasions = by_id[primary].get("occasions") or []
+        occ_txt = f" Occasions tagged: {', '.join(occasions)}." if occasions else ""
+        interpretation = f"{tip}{occ_txt}"
+        recommendation = interpretation
+    elif q == "DURABLE_ENOUGH" and primary:
+        tip = theme_summary(primary, {"DURABILITY", "QUALITY"}) or (
+            "Durability feedback is based on available buyer themes."
+        )
+        interpretation = tip
+        recommendation = tip
+    elif q == "STYLE_VERSATILE" and primary:
+        occasions = by_id[primary].get("occasions") or []
+        tip = theme_summary(primary, {"APPEARANCE", "OCCASION"}) or ""
+        if occasions:
+            interpretation = (
+                f"Tagged for {', '.join(occasions)}, so it can work across those looks. {tip}"
+            ).strip()
+        else:
+            interpretation = tip or "Style versatility depends on your wardrobe; check occasion tags on the listing."
+        recommendation = interpretation
+    elif q == "BETTER_OPTION_IN_WISHLIST" and primary:
+        similars = pack.get("similar") or []
+        if similars:
+            alt = similars[0]
+            interpretation = (
+                f"A close Wishlist alternative is {pname(alt.get('id'))} "
+                f"({alt.get('reason') or 'similar attributes'})."
             )
         else:
             interpretation = (
-                "Check price insight for where today’s price sits in the recent range, "
-                "then decide with the comparison table."
+                f"No clearly better Wishlist peer stood out against {pname(primary)} right now."
             )
         recommendation = interpretation
     elif best:
         interpretation = f"From the available scores, {pname(best)} looks like the safest pick."
         recommendation = interpretation
-    else:
+    elif primary:
         interpretation = (
-            "You can still compare price, rating, and reviews in the table above to decide."
+            f"{pname(primary)} has price, rating, and buyer themes available to decide with."
         )
         recommendation = interpretation
+    else:
+        interpretation = "Compare price, rating, and reviews to decide."
+        recommendation = interpretation
+
+    # Once evidence exists, don't advertise empty missing lists to callers.
+    if any(p.get("history_available") for p in prices) and any(themes_for(p["product_id"]) for p in products):
+        missing = [m for m in missing if m not in ("price_history", "reviews", "review_insights")]
 
     base.update(
         {
@@ -253,7 +366,6 @@ def _fallback_answer(pack: dict[str, Any], base: dict[str, Any]) -> dict[str, An
             "recommendation": recommendation,
             "answer": recommendation,
             "tradeoffs": [],
-            # Keep missing for engine/debug, but UI no longer surfaces it.
             "missing": missing,
             "groq_used": False,
             "available": True,

@@ -20,7 +20,7 @@ LANGUAGE_RULES = [
     "Use only evidence in this pack",
     "Do not predict future prices",
     "Separate fact, evidence, interpretation, recommendation",
-    "Mention missing data when present",
+    "If a field is present in the pack, do not claim it is missing",
 ]
 
 
