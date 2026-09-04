@@ -32,9 +32,23 @@ app = FastAPI(
     lifespan=lifespan,
 )
 
+
+@app.get("/")
+def root():
+    """Railway public URL has no UI — frontend lives on Vercel."""
+    return {
+        "service": "Myntra Wishlist Decision Studio API",
+        "status": "ok",
+        "health": "/health",
+        "docs": "/docs",
+        "api": "/api/products",
+    }
+
+
 app.add_middleware(
     CORSMiddleware,
     allow_origins=config.CORS_ORIGINS,
+    allow_origin_regex=r"https://.*\.vercel\.app",
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],

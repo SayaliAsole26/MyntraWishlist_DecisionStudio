@@ -1,8 +1,16 @@
-const API = (import.meta.env.VITE_API_URL || "").replace(/\/$/, "");
+// Production uses same-origin paths so Vercel proxies to Railway (works on Wi‑Fi + mobile data).
+// Locally, empty VITE_API_URL uses the Vite dev proxy to port 8002.
+const configured = (import.meta.env.VITE_API_URL || "").replace(/\/$/, "");
+const forceDirect = import.meta.env.VITE_FORCE_DIRECT_API === "true";
+const API =
+  import.meta.env.PROD && !forceDirect ? "" : configured;
 const USER_ID = "U001";
 
 function apiReachabilityHint() {
   if (!API) {
+    if (import.meta.env.PROD) {
+      return "Same-origin API proxy failed. Check Vercel rewrites to Railway and that the backend is up.";
+    }
     return "Start the backend: uvicorn backend.main:app --reload --host 127.0.0.1 --port 8002";
   }
   return [
