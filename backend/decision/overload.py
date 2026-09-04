@@ -12,6 +12,8 @@ def _group_label(category: str | None, subcategory: str | None) -> str:
     sub = (subcategory or "").lower()
     if "dress" in sub or cat in ("dress", "dresses"):
         return "dresses"
+    if "kurta" in cat or "kurta" in sub:
+        return "kurtas"
     if "sneaker" in sub or "shoe" in sub or cat in ("sneakers", "shoes"):
         return "sneakers"
     if "sandal" in cat or "sandal" in sub:
@@ -93,6 +95,7 @@ def detect_overload_groups(
     if len(products) < threshold:
         return []
 
+    by_id = {p["product_id"]: p for p in products}
     seen_keys: set[str] = set()
     groups: list[dict] = []
 
@@ -115,32 +118,36 @@ def detect_overload_groups(
             }
         )
 
-    product_ids = [p["product_id"] for p in products]
-    for component in _similarity_clusters(conn, product_ids):
-        if len(component) < threshold:
+    # Similarity clusters only within the same soft category — never mix kurtas + sandals.
+    for label, pids in _category_groups(products).items():
+        if len(pids) < threshold:
             continue
-        group_key = f"sim:{','.join(component)}"
-        if group_key in seen_keys:
+        # Already have a category group covering these ids.
+        if any(g["label"] == label and set(pids).issubset(set(g["product_ids"])) for g in groups):
             continue
-        # Skip if already covered by a larger category group with same ids
-        subset_of_cat = any(
-            set(component).issubset(set(g["product_ids"])) and g["count"] >= threshold
-            for g in groups
-        )
-        if subset_of_cat:
-            continue
-        seen_keys.add(group_key)
-        sample = next(p for p in products if p["product_id"] == component[0])
-        groups.append(
-            {
-                "group_key": group_key,
-                "category": sample.get("category"),
-                "subcategory": sample.get("subcategory"),
-                "count": len(component),
-                "product_ids": component,
-                "label": _group_label(sample.get("category"), sample.get("subcategory")),
-            }
-        )
+        for component in _similarity_clusters(conn, pids):
+            if len(component) < threshold:
+                continue
+            group_key = f"sim:{label}:{','.join(component)}"
+            if group_key in seen_keys:
+                continue
+            covered = any(
+                set(component).issubset(set(g["product_ids"])) for g in groups
+            )
+            if covered:
+                continue
+            seen_keys.add(group_key)
+            sample = by_id[component[0]]
+            groups.append(
+                {
+                    "group_key": group_key,
+                    "category": sample.get("category"),
+                    "subcategory": sample.get("subcategory"),
+                    "count": len(component),
+                    "product_ids": component,
+                    "label": label,
+                }
+            )
 
     groups.sort(key=lambda g: g["count"], reverse=True)
     return groups

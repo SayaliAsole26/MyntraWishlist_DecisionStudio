@@ -1,8 +1,7 @@
 import { useEffect, useState } from "react";
 
 function groupTitle(group) {
-  if (group.category) return group.category;
-  const label = group.label || "items";
+  const label = group.label || group.category || "items";
   return label.charAt(0).toUpperCase() + label.slice(1);
 }
 
