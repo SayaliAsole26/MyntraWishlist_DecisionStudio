@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import { formatPrice } from "../api/client.js";
+import { friendlyError } from "../lib/friendlyError.js";
 import ComparisonTable from "./ComparisonTable.jsx";
 
 export default function CompareDrawer({ open, onClose, result, loading, error, fromCount }) {
@@ -8,6 +9,7 @@ export default function CompareDrawer({ open, onClose, result, loading, error, f
   const ids = result?.products?.map((p) => p.product_id).join(",") || "";
   const bestId = result?.labels?.best_balance;
   const bestProduct = result?.products?.find((p) => p.product_id === bestId);
+  const errText = friendlyError(error, null);
 
   return (
     <div className="sheet-backdrop" onClick={onClose} role="presentation">
@@ -25,7 +27,7 @@ export default function CompareDrawer({ open, onClose, result, loading, error, f
         </div>
 
         {loading ? <p className="muted sheet-body">Building comparison…</p> : null}
-        {error ? <p className="error-banner sheet-body">{error}</p> : null}
+        {errText && !result ? <p className="error-banner sheet-body">{errText}</p> : null}
 
         {result ? (
           <div className="sheet-body">

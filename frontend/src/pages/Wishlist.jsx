@@ -158,6 +158,7 @@ export default function Wishlist() {
       const result = await api.compareWishlist(ids.slice(0, MAX_COMPARE), compareOptionsFromContext());
       setCompareResult(result);
     } catch (err) {
+      if (err?.silent || err?.message === "SILENT") return;
       setCompareError(err.message);
     } finally {
       setCompareLoading(false);
@@ -216,7 +217,11 @@ export default function Wishlist() {
         }
       }
     } catch (err) {
-      setCompareError(err.message);
+      if (err?.silent || err?.message === "SILENT") {
+        /* ignore */
+      } else {
+        setCompareError(err.message);
+      }
     } finally {
       setCompareLoading(false);
     }

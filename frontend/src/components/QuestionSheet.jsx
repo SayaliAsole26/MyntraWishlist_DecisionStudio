@@ -17,6 +17,11 @@ export default function QuestionSheet({
     (answer?.recommendation && answer?.labels?.best_balance) ||
     null;
 
+  const errText =
+    error && !/alert not found|already dismissed|SILENT|HTTP\s*\d/i.test(String(error))
+      ? error
+      : null;
+
   return (
     <div className="sheet-backdrop" onClick={onClose} role="presentation">
       <div
@@ -58,7 +63,7 @@ export default function QuestionSheet({
               >
                 {loading ? "Thinking…" : "Get answer"}
               </button>
-              {error ? <p className="error-banner">{error}</p> : null}
+              {errText ? <p className="error-banner">{errText}</p> : null}
             </>
           ) : (
             <div className="answer-card">

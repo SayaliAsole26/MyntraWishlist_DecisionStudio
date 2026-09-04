@@ -1,3 +1,5 @@
+import { friendlyError } from "../lib/friendlyError.js";
+
 // Production uses same-origin paths so Vercel proxies to Railway (works on Wi‑Fi + mobile data).
 // Locally, empty VITE_API_URL uses the Vite dev proxy to port 8002.
 const configured = (import.meta.env.VITE_API_URL || "").replace(/\/$/, "");
@@ -5,20 +7,6 @@ const forceDirect = import.meta.env.VITE_FORCE_DIRECT_API === "true";
 const API =
   import.meta.env.PROD && !forceDirect ? "" : configured;
 const USER_ID = "U001";
-
-function apiReachabilityHint() {
-  if (!API) {
-    if (import.meta.env.PROD) {
-      return "Same-origin API proxy failed. Check Vercel rewrites to Railway and that the backend is up.";
-    }
-    return "Start the backend: uvicorn backend.main:app --reload --host 127.0.0.1 --port 8002";
-  }
-  return [
-    "Check: (1) VITE_API_URL on Vercel matches your Railway domain (no trailing slash),",
-    "(2) Railway CORS_ORIGINS includes this site's URL,",
-    "(3) your network resolves *.up.railway.app (try Google DNS 8.8.8.8 if needed).",
-  ].join(" ");
-}
 
 async function request(path, options = {}) {
   let res;
@@ -32,12 +20,20 @@ async function request(path, options = {}) {
       },
     });
   } catch {
-    throw new Error(`Cannot reach API at ${API || "same origin"}. ${apiReachabilityHint()}`);
+    throw new Error("Connection issue. Please try again.");
   }
   if (res.status === 204) return null;
   const data = await res.json().catch(() => ({}));
   if (!res.ok) {
-    throw new Error(data.detail || `HTTP ${res.status}`);
+    const detail = typeof data.detail === "string" ? data.detail : null;
+    const msg = friendlyError(detail || `HTTP ${res.status}`);
+    if (!msg) {
+      // Silent / non-user-facing failures (e.g. already-dismissed alert)
+      const silent = new Error("SILENT");
+      silent.silent = true;
+      throw silent;
+    }
+    throw new Error(msg);
   }
   return data;
 }
