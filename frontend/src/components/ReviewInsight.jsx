@@ -1,5 +1,8 @@
+import { friendlyError } from "../lib/friendlyError.js";
+
 export default function ReviewInsight({ open, onClose, data, loading, error }) {
   if (!open) return null;
+  const errText = friendlyError(error, null);
 
   return (
     <div className="sheet-backdrop" onClick={onClose} role="presentation">
@@ -12,7 +15,7 @@ export default function ReviewInsight({ open, onClose, data, loading, error }) {
         </div>
         <div className="sheet-body">
           {loading ? <p className="muted">Loading…</p> : null}
-          {error ? <p className="error-banner">{error}</p> : null}
+          {errText && !data ? <p className="error-banner">{errText}</p> : null}
           {data ? (
             <>
               <p className="insight-lead">{data.summary}</p>
