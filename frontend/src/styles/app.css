@@ -1526,28 +1526,36 @@ legend {
   align-items: stretch;
 }
 
-.overload-backdrop {
-  z-index: 60;
+.overload-banner {
+  background: var(--white);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 16px;
+  margin-bottom: 20px;
 }
 
-.overload-sheet {
-  max-width: 480px;
+.overload-banner-top {
+  display: flex;
+  gap: 12px;
+  align-items: flex-start;
 }
 
-.overload-header {
-  text-align: center;
+.overload-banner-title {
+  margin: 0 0 6px;
+  font-size: 18px;
 }
 
 .overload-illustration {
   display: flex;
   justify-content: center;
-  margin-bottom: 8px;
+  flex-shrink: 0;
 }
 
 .overload-copy {
-  font-size: 16px;
+  font-size: 15px;
   line-height: 1.5;
-  margin: 0 0 20px;
+  margin: 0 0 12px;
+  color: var(--muted, #535766);
 }
 
 .overload-actions {
@@ -1556,10 +1564,16 @@ legend {
   gap: 10px;
 }
 
+.overload-actions--row {
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
 .overload-options {
   border: none;
   padding: 0;
-  margin: 0 0 20px;
+  margin: 0 0 14px;
   display: flex;
   flex-direction: column;
   gap: 8px;

@@ -112,7 +112,7 @@ export default function Wishlist() {
       setSelected((prev) => prev.filter((id) => id !== productId));
       load();
     } catch (err) {
-      setError(err.message);
+      showToast(err.message || "Could not remove item");
     }
   };
 
@@ -121,7 +121,7 @@ export default function Wishlist() {
     try {
       await addToBagId(productId);
     } catch (err) {
-      setError(err.message);
+      showToast(err.message || "Could not add to bag");
     }
   };
 
@@ -130,7 +130,7 @@ export default function Wishlist() {
       await api.dismissAlert(alertId);
       setAlerts((prev) => prev.filter((a) => a.alert_id !== alertId));
     } catch (err) {
-      setError(err.message);
+      showToast(err.message || "Could not dismiss alert");
     }
   };
 
@@ -165,6 +165,7 @@ export default function Wishlist() {
   };
 
   const narrowDown = async (allIds, alertId, groupKey) => {
+    setOverloadClosed(true);
     setOverloads((prev) => prev.filter((o) => o.group_key !== groupKey));
 
     const ctx = getDecisionContext();
@@ -343,6 +344,14 @@ export default function Wishlist() {
         <WishlistAlerts alerts={alerts} onDismiss={dismissAlert} onViewItem={viewItem} />
       ) : null}
 
+      {!loading && overloads.length > 0 && !overloadClosed ? (
+        <DecisionOverloadModal
+          overloads={overloads}
+          onCompare={(ids, alertId, groupKey) => narrowDown(ids, alertId, groupKey)}
+          onDismiss={dismissOverload}
+        />
+      ) : null}
+
       {!loading && items.length === 0 ? (
         <EmptyState
           title="Your Wishlist is empty."
@@ -377,14 +386,6 @@ export default function Wishlist() {
           </section>
         ))
       )}
-
-      {overloads.length > 0 && !overloadClosed ? (
-        <DecisionOverloadModal
-          overloads={overloads}
-          onCompare={(ids, alertId, groupKey) => narrowDown(ids, alertId, groupKey)}
-          onDismiss={dismissOverload}
-        />
-      ) : null}
 
       <CompareDrawer
         open={compareOpen}
