@@ -31,6 +31,15 @@ def _ensure_derived_stats(conn) -> None:
         rebuild_insights(conn, use_groq=False)
 
 
+def _needs_evidence_repair(conn) -> bool:
+    product_count = conn.execute("SELECT COUNT(*) FROM products").fetchone()[0]
+    if product_count == 0:
+        return False
+    review_count = conn.execute("SELECT COUNT(*) FROM reviews").fetchone()[0]
+    price_count = conn.execute("SELECT COUNT(*) FROM price_history").fetchone()[0]
+    return review_count == 0 or price_count == 0
+
+
 def _migrate_schema(conn) -> None:
     cols = {row[1] for row in conn.execute("PRAGMA table_info(wishlist_items)").fetchall()}
     if "occasion" not in cols:
@@ -49,30 +58,41 @@ def init_database() -> None:
         _migrate_schema(conn)
 
         count = conn.execute("SELECT COUNT(*) FROM products").fetchone()[0]
-        if count == 0:
-            from offline.ingestion.pipeline import ingest_catalog
+        needs_ingest = count == 0 or _needs_evidence_repair(conn)
+    finally:
+        conn.close()
 
-            ingest_catalog()
+    if needs_ingest:
+        from offline.ingestion.pipeline import ingest_catalog
 
+        ingest_catalog()
+
+    conn = get_connection()
+    try:
         _ensure_derived_stats(conn)
     finally:
         conn.close()
 
 
 def ensure_catalog_ready() -> None:
-    """Recover if app.db was wiped while the server is still running (e.g. during pytest)."""
-    conn = get_connection()
-    recreate = False
+    """Recover if app.db was wiped or evidence tables emptied while the server is running."""
     try:
-        count = conn.execute("SELECT COUNT(*) FROM products").fetchone()[0]
-        if count == 0:
+        conn = get_connection()
+        try:
+            count = conn.execute("SELECT COUNT(*) FROM products").fetchone()[0]
+            needs_ingest = count == 0 or _needs_evidence_repair(conn)
+        finally:
+            conn.close()
+
+        if needs_ingest:
             from offline.ingestion.pipeline import ingest_catalog
 
             ingest_catalog()
+
+        conn = get_connection()
+        try:
             _ensure_derived_stats(conn)
+        finally:
+            conn.close()
     except sqlite3.OperationalError:
-        recreate = True
-    finally:
-        conn.close()
-    if recreate:
         init_database()

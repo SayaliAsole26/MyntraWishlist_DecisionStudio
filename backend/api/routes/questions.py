@@ -1,6 +1,7 @@
 from fastapi import APIRouter, Depends, HTTPException
 
 from backend.api.deps import get_user_id
+from backend.db.init_db import ensure_catalog_ready
 from backend.db.session import get_connection
 from backend.models import QuestionAnswerBody
 from backend.services import question_service
@@ -15,6 +16,7 @@ def list_questions(product_count: int = 1, offset: int = 0):
 
 @router.post("/answer")
 def answer_question(body: QuestionAnswerBody, user_id: str = Depends(get_user_id)):
+    ensure_catalog_ready()
     conn = get_connection()
     try:
         return question_service.answer_question(

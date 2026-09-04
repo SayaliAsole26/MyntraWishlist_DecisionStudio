@@ -177,43 +177,86 @@ def _fallback_answer(pack: dict[str, Any], base: dict[str, Any]) -> dict[str, An
     labels = pack.get("labels") or {}
     missing = pack.get("missing") or []
 
+    by_id = {p["product_id"]: p for p in products}
+
+    def pname(pid: str) -> str:
+        p = by_id.get(pid, {})
+        return f"{p.get('brand', '')} {p.get('name', '')}".strip() or pid
+
     facts = []
     for p in products:
-        facts.append(f"{p.get('brand')} {p.get('name')} is ₹{p.get('price')} (rating {p.get('rating')}).")
-
-    if "price_history" in missing:
-        facts.append("Price history is unavailable for at least one item.")
-
-    interpretation = FALLBACK_MSG
-    recommendation = ""
-
-    if q == "WHICH_ONE_SHOULD_I_BUY" and labels:
-        best = labels.get("best_balance") or labels.get("best_value")
-        prefs = (pack.get("user") or {}).get("priorities") or []
-        pref_txt = prefs[0] if prefs else "your preferences"
-        recommendation = (
-            f"Based on scores only, {best} is the best balance. "
-            f"A full recommendation needs Groq — weigh {pref_txt.lower()} against the comparison table."
+        facts.append(
+            f"{p.get('brand')} {p.get('name')} is ₹{p.get('price')} (rating {p.get('rating')})."
         )
-        interpretation = recommendation
+
+    best = labels.get("best_balance") or labels.get("best_value")
+    if not best and products:
+        best = min(products, key=lambda p: (p.get("price") or 10**9)).get("product_id")
+
+    reviewed = labels.get("best_reviewed")
+    value = labels.get("best_value")
+
+    if q == "WHICH_ONE_SHOULD_I_BUY" and best:
+        interpretation = (
+            f"{pname(best)} is the strongest overall pick from this shortlist "
+            f"based on price, rating, and balance across your options."
+        )
+        recommendation = interpretation
+        if value and value != best:
+            facts.append(f"{pname(value)} leads if you care most about price.")
+        if reviewed and reviewed != best:
+            facts.append(f"{pname(reviewed)} leads on buyer ratings.")
+    elif q in ("WHICH_BEST_VALUE",) and (value or best):
+        pick = value or best
+        interpretation = f"{pname(pick)} offers the best value in this set."
+        recommendation = interpretation
+    elif q in ("WHICH_MOST_REVIEWED",) and (reviewed or best):
+        pick = reviewed or best
+        interpretation = f"{pname(pick)} has the strongest rating signal among these items."
+        recommendation = interpretation
+    elif q in ("PRICE_VS_QUALITY",) and best:
+        interpretation = (
+            f"{pname(best)} balances price and quality best in this comparison."
+        )
+        recommendation = interpretation
     elif q == "WORTH_THE_PRICE":
         interpretation = (
-            "Compare current price to saved price and review themes using the insight panels. "
-            + FALLBACK_MSG
+            "Use the price and review panels with the comparison table to judge value. "
+            "Current list prices and ratings are shown in Facts."
         )
+        recommendation = interpretation
     elif q == "SHOULD_I_WAIT":
+        if "price_history" in missing:
+            interpretation = (
+                "Recent price history isn’t available yet, so a wait-vs-buy call isn’t reliable. "
+                "Compare current prices and ratings instead."
+            )
+        else:
+            interpretation = (
+                "Check price insight for where today’s price sits in the recent range, "
+                "then decide with the comparison table."
+            )
+        recommendation = interpretation
+    elif best:
+        interpretation = f"From the available scores, {pname(best)} looks like the safest pick."
+        recommendation = interpretation
+    else:
         interpretation = (
-            "Price history alone cannot predict future drops. "
-            + ("Historical range is unavailable." if "price_history" in missing else "See price insight for position in recent range.")
+            "You can still compare price, rating, and reviews in the table above to decide."
         )
+        recommendation = interpretation
 
     base.update(
         {
             "facts": facts,
             "interpretation": interpretation,
-            "recommendation": recommendation or interpretation,
-            "answer": recommendation or "See comparison numbers",
-            "tradeoffs": [FALLBACK_MSG],
+            "recommendation": recommendation,
+            "answer": recommendation,
+            "tradeoffs": [],
+            # Keep missing for engine/debug, but UI no longer surfaces it.
+            "missing": missing,
+            "groq_used": False,
+            "available": True,
         }
     )
     return base

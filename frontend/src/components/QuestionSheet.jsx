@@ -106,19 +106,6 @@ export default function QuestionSheet({
                 </section>
               ) : null}
 
-              {answer.missing?.length ? (
-                <p className="muted small">Missing: {answer.missing.join(", ")}</p>
-              ) : null}
-
-              {!answer.groq_used &&
-              !answer.interpretation?.includes("temporarily unavailable") &&
-              !answer.recommendation?.includes("temporarily unavailable") ? (
-                <p className="muted small insight-fallback">
-                  Decision insight temporarily unavailable. You can still compare price, rating, and
-                  reviews.
-                </p>
-              ) : null}
-
               <div className="answer-actions">
                 <button
                   type="button"

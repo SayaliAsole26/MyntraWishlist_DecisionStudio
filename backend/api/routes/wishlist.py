@@ -1,6 +1,7 @@
 from fastapi import APIRouter, Depends, HTTPException, Path
 
 from backend.api.deps import get_user_id
+from backend.db.init_db import ensure_catalog_ready
 from backend.db.repositories import wishlist as wishlist_repo
 from backend.db.session import get_connection
 from backend.models import CompareBody, ShortlistBody, WishlistAddBody
@@ -11,6 +12,7 @@ router = APIRouter(prefix="/api/wishlist", tags=["wishlist"])
 
 @router.get("")
 def get_wishlist(user_id: str = Depends(get_user_id)):
+    ensure_catalog_ready()
     conn = get_connection()
     try:
         return wishlist_service.get_wishlist_with_signals(conn, user_id)
